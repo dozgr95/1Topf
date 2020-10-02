@@ -1,0 +1,83 @@
+{
+	"Veggies": [
+		{
+			"Name": "Aubergine"
+		},
+		{
+			"Name": "Blumenkohl"
+		},
+		{
+			"Name": "Broccoli"
+		},
+		{
+			"Name": "Chicorée"
+		},
+		{
+			"Name": "Fenchel"
+		},
+		{
+			"Name": "Gurke"
+		},
+		{
+			"Name": "Karotte"
+		},
+		{
+			"Name": "Knollenselleri"
+		},
+		{
+			"Name": "Kohlrabi"
+		},
+		{
+			"Name": "Krautstiel"
+		},
+		{
+			"Name": "Kürbis"
+		},
+		{
+			"Name": "Pastinake"
+		},
+		{
+			"Name": "Peperoni"
+		},
+		{
+			"Name": "Radieschen"
+		},
+		{
+			"Name": "Rande"
+		},
+		{
+			"Name": "Rettich"
+		},
+		{
+			"Name": "Rosenkohl"
+		},	
+		{
+			"Name": "Romanesco"
+		},
+		{
+			"Name": "Rotkabis"
+		},
+{
+			"Name": "Spinat"
+		},
+		{
+			"Name": "Stangensellerie"
+		},
+		{
+			"Name": "Tomaten"
+		},
+		{
+			"Name": "Weisskabis"
+		},
+		{
+			"Name": "Zucchetti"
+		},
+		{
+			"Name": "Zuckermais"
+		},	
+		{
+			"Name": "Pilze"
+		}
+	]
+
+}

@@ -1,0 +1,46 @@
+{
+	"Grains": [
+		{
+			"Name": "Quinoa"
+		},
+		{
+			"Name": "Couscous"
+		},
+		{
+			"Name": "Hirse"
+		},
+		{
+			"Name": "Hafer"
+		},
+		{
+			"Name": "Bulgur"
+		},
+		{
+			"Name": "Buchweizen"
+		},
+		{
+			"Name": "Reis"
+		},
+		{
+			"Name": "Kartoffeln"
+		},
+		{
+			"Name": "Weizenvollkorn-Teigwaren"
+		},
+		{
+			"Name": "Dinkelvollkorn-Teigwaren"
+		},
+		{
+			"Name": "Gerste"
+		},
+		{
+			"Name": "Amaranth"
+		},
+		{
+			"Name": "Hirse"
+		},
+		{
+			"Name": "Emmer"
+		}			
+	]
+}
