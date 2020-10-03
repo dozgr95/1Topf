@@ -25,7 +25,7 @@
 			"Name": "Apfelessig"
 		},
 		{
-			"Name": "Weiss/Rotwein-Essig"
+			"Name": "Weiss-/Rotwein (-Essig)"
 		},
 		{
 			"Name": "mediterane Kräuter"
@@ -53,7 +53,21 @@
 		},
 		{
 			"Name": "Nussmus"
-		}			
+		},
+		{
+			"Name": "Senf(-samen)"
+		},
+		{
+			"Name": "Tomatensauce/-Püre/Pelati"
+		},
+		{
+			"Name": "Gemüsebouillon (mit Wasser)"
+		},
+		{
+			"Name": "Miso-Paste (mit Wasser)"
+		},
+		{
+			"Name": "Pilze"
+		}
 	]
-
 }
