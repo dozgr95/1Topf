@@ -1,8 +1,9 @@
 <template>
   <div id="app">
     <div id="nav">
+      Ernährung beginnt beim Einkaufen
       <router-link to="/">Home</router-link> |
-      <router-link to="/easy">Einfaches Rezept</router-link>  |
+      <router-link to="/easy">Einfaches Rezept - Einkaufsliste erstellen</router-link>  |
       <router-link to="/advanced">The real shit</router-link>
     </div>
     <router-view/>

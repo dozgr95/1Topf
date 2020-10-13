@@ -2,33 +2,44 @@ import {
   loadVeggies, loadAdditionals, loadGrains, loadLegumes,
 } from './jsonAccessor';
 
-export const generateNewRecipe = (aVeggie: number, aLegume: number,
-  aGrains: number, aAdditionals: number) => {
+const checkVeggieSeason = (veggie: Veggie): boolean => {
+  const date = new Date();
+  const month: number = date.getMonth() + 1;
+  let isSeason: boolean = veggie.MainSeason.includes(month.toString());
+  if (!isSeason) {
+    isSeason = veggie.OffSeason !== '';
+  }
+  return isSeason;
+};
+
+export const generateNewRecipe = (veggieAmount: number, legumeAmount: number,
+  grainAmount: number, additionalAmount: number) => {
   const newRecipe: Recipe = {
     veggies: [],
     legumes: [],
     grains: [],
     additionals: [],
   };
-  console.log('before load');
   const lists: Recipe = {
     veggies: loadVeggies(),
     legumes: loadLegumes(),
     grains: loadGrains(),
     additionals: loadAdditionals(),
   };
-  console.log('after load');
 
+  // filter season
+  const seasonVeggies = lists.veggies.filter((veggie) => checkVeggieSeason(veggie));
+  console.log(seasonVeggies);
   let counter = 0;
-  while (aVeggie > counter) {
-    const randInd = Math.floor(Math.random() * lists.veggies.length);
-    newRecipe.veggies.push(lists.veggies[randInd]);
-    lists.veggies.splice(randInd, 1);
+  while (veggieAmount > counter) {
+    const randInd = Math.floor(Math.random() * seasonVeggies.length);
+    newRecipe.veggies.push(seasonVeggies[randInd]);
+    seasonVeggies.splice(randInd, 1);
     counter = 1 + counter;
   }
 
   counter = 0;
-  while (aLegume > counter) {
+  while (legumeAmount > counter) {
     const randInd = Math.floor(Math.random() * lists.legumes.length);
     newRecipe.legumes.push(lists.legumes[randInd]);
     lists.legumes.splice(randInd, 1);
@@ -36,7 +47,7 @@ export const generateNewRecipe = (aVeggie: number, aLegume: number,
   }
 
   counter = 0;
-  while (aGrains > counter) {
+  while (grainAmount > counter) {
     const randInd = Math.floor(Math.random() * lists.grains.length);
     newRecipe.grains.push(lists.grains[randInd]);
     lists.grains.splice(randInd, 1);
@@ -44,14 +55,12 @@ export const generateNewRecipe = (aVeggie: number, aLegume: number,
   }
 
   counter = 0;
-  while (aAdditionals > counter) {
+  while (additionalAmount > counter) {
     const randInd = Math.floor(Math.random() * lists.additionals.length);
     newRecipe.additionals.push(lists.additionals[randInd]);
     lists.additionals.splice(randInd, 1);
     counter = 1 + counter;
   }
-
-  console.log('after loops');
 
   return newRecipe;
 };
@@ -65,6 +74,8 @@ export interface Recipe {
 
 export interface Veggie {
   Name: string;
+  MainSeason: string;
+  OffSeason: string;
 }
 
 export interface Legume {
