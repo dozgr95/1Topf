@@ -1,85 +1,154 @@
 {
 	"Veggies": [
 		{
-			"Name": "Aubergine"
+			"Name": "Aubergine",
+			"MainSeason": "6,7,8,9,10",
+			"OffSeason": ""
 		},
 		{
-			"Name": "Blumenkohl"
+			"Name": "Blumenkohl",
+			"MainSeason": "5,6,7,8,9,10,11,12",
+			"OffSeason": "Tiefgekühlt"
 		},
 		{
-			"Name": "Broccoli"
+			"Name": "Broccoli",
+			"MainSeason": "5,6,7,8,9,10,11",
+			"OffSeason": "Tiefgekühlt"
 		},
 		{
-			"Name": "Chicorée"
+			"Name": "Chicorée",
+			"MainSeason": "1,2,3,4,5,6,7,8,9,10,11,12",
+			"OffSeason": ""
 		},
 		{
-			"Name": "Fenchel"
+			"Name": "Chinakohl",
+			"MainSeason": "1,2,3,5,6,7,8,9,10,11,12",
+			"OffSeason": ""
 		},
 		{
-			"Name": "Gurke"
+			"Name": "Fenchel",
+			"MainSeason": "5,6,7,8,9,10,11",
+			"OffSeason": ""
 		},
 		{
-			"Name": "Karotte"
+			"Name": "Gurke",
+			"MainSeason": "4,5,6,7,8,9,10",
+			"OffSeason": "Essiggurken"
 		},
 		{
-			"Name": "Knollenselleri"
+			"Name": "Karotte",
+			"MainSeason": "1,2,3,4,5,6,7,8,9,10,11,12",
+			"OffSeason": ""
 		},
 		{
-			"Name": "Kohlrabi"
+			"Name": "Knollensellerie",
+			"MainSeason": "1,2,3,4,5,6,7,8,9,10,11,12",
+			"OffSeason": ""
 		},
 		{
-			"Name": "Krautstiel"
+			"Name": "Kohlrabi",
+			"MainSeason": "1,2,3,4,5,6,7,8,9,10,11,12",
+			"OffSeason": ""
 		},
 		{
-			"Name": "Kürbis"
+			"Name": "Mangold (Krautstiel)",
+			"MainSeason": "3,4,5,6,7,8,9,10,11",
+			"OffSeason": ""
 		},
 		{
-			"Name": "Pastinake"
+			"Name": "Kürbis",
+			"MainSeason": "1,2,8,9,10,11,12",
+			"OffSeason": ""
 		},
 		{
-			"Name": "Peperoni"
+			"Name": "Pastinake",
+			"MainSeason": "1,2,3,7,8,9,10,11,12",
+			"OffSeason": ""
 		},
 		{
-			"Name": "Radieschen"
+			"Name": "Peperoni",
+			"MainSeason": "6,7,8,9,10",
+			"OffSeason": ""
 		},
 		{
-			"Name": "Rande"
+			"Name": "Radieschen",
+			"MainSeason": "1,2,3,4,5,6,7,8,9,10,11,12",
+			"OffSeason": ""
 		},
 		{
-			"Name": "Rettich"
+			"Name": "Randen",
+			"MainSeason": "1,2,3,4,5,6,7,8,9,10,11,12",
+			"OffSeason": ""
 		},
 		{
-			"Name": "Rosenkohl"
+			"Name": "Rettich",
+			"MainSeason": "4,5,6,7,8,9,10,11,12",
+			"OffSeason": ""
+		},
+		{
+			"Name": "Rosenkohl",
+			"MainSeason": "1,2,6,7,8,9,10,11,12",
+			"OffSeason": "Tiefgekühlt"
 		},	
 		{
-			"Name": "Romanesco"
+			"Name": "Romanesco",
+			"MainSeason": "5,6,7,8,9,10",
+			"OffSeason": ""
 		},
 		{
-			"Name": "Rotkabis"
-		},
-{
-			"Name": "Spinat"
-		},
-		{
-			"Name": "Stangensellerie"
+			"Name": "Rotkabis",
+			"MainSeason": "1,2,3,4,5,6,7,8,9,10,11,12",
+			"OffSeason": "(Rotkraut)"
 		},
 		{
-			"Name": "Tomaten"
+			"Name": "Schwarzwurzel",
+			"MainSeason": "1,2,3,4,5,10,11,12",
+			"OffSeason": ""
 		},
 		{
-			"Name": "Weisskabis"
+			"Name": "Spargel",
+			"MainSeason": "4,5,6",
+			"OffSeason": ""
 		},
 		{
-			"Name": "Zucchetti"
+			"Name": "Spinat",
+			"MainSeason": "3,4,5,6,7,8,9,10,11",
+			"OffSeason": "Tiefgekühlt"
 		},
 		{
-			"Name": "Zuckermais"
+			"Name": "Stangensellerie",
+			"MainSeason": "5,6,7,8,9,10,11,12",
+			"OffSeason": ""
 		},
 		{
-			"Name": "Süsskartoffeln"
+			"Name": "Tomaten",
+			"MainSeason": "4,5,6,7,8,9,10,11",
+			"OffSeason": ""
 		},
 		{
-			"Name": "Topinambur"
+			"Name": "Weisskabis",
+			"MainSeason": "1,2,3,4,5,6,7,8,9,10,11,12",
+			"OffSeason": "(Sauerkraut)"
+		},
+		{
+			"Name": "Zucchetti",
+			"MainSeason": "5,6,7,8,9,10",
+			"OffSeason": ""
+		},
+		{
+			"Name": "Zuckermais",
+			"MainSeason": "8,9,10,11",
+			"OffSeason": "Dose"
+		},
+		{
+			"Name": "Süsskartoffeln",
+			"MainSeason": "",
+			"OffSeason": ""	
+		},
+		{
+			"Name": "Topinambur",
+			"MainSeason": "1,2,3,11,12",
+			"OffSeason": ""
 		}
 	]
 
