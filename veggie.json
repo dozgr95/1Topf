@@ -3,153 +3,236 @@
 		{
 			"Name": "Aubergine",
 			"MainSeason": "6,7,8,9,10",
-			"OffSeason": ""
+			"OffSeason": "",
+			"HandlingTips": [
+				"Aubergine im Kühlschrank aufbewahren. "
+			]
 		},
 		{
 			"Name": "Blumenkohl",
 			"MainSeason": "5,6,7,8,9,10,11,12",
-			"OffSeason": "Tiefgekühlt"
+			"OffSeason": "Tiefgekühlt",
+			"HandlingTips": [
+				"Blumenkohl kann auch (im Winter) tiefgekühlt gekauft werden",
+				"Frischer Blumenkohl im Kühlschrank aufbewahren. "
+			]
 		},
 		{
 			"Name": "Broccoli",
 			"MainSeason": "5,6,7,8,9,10,11",
-			"OffSeason": "Tiefgekühlt"
+			"OffSeason": "Tiefgekühlt",
+			"HandlingTips": [
+				"Broccoli kann auch (im Winter) tiefgekühlt gekauft werden",
+				"Frischer Broccoli im Kühlschrank aufbewahren. "
+			]
 		},
 		{
 			"Name": "Chicorée",
 			"MainSeason": "1,2,3,4,5,6,7,8,9,10,11,12",
-			"OffSeason": ""
+			"OffSeason": "",
+			"HandlingTips": [
+				"Chicorée im Kühlschrank aufbewahren. "
+			]
 		},
 		{
 			"Name": "Chinakohl",
 			"MainSeason": "1,2,3,5,6,7,8,9,10,11,12",
-			"OffSeason": ""
+			"OffSeason": "",
+			"HandlingTips": [
+				"Chinakohl im Kühlschrank aufbewahren. "
+			]
 		},
 		{
 			"Name": "Fenchel",
 			"MainSeason": "5,6,7,8,9,10,11",
-			"OffSeason": ""
+			"OffSeason": "",
+			"HandlingTips": [
+				"Fenchel im Kühlschrank aufbewahren. "
+			]
 		},
 		{
 			"Name": "Gurke",
 			"MainSeason": "4,5,6,7,8,9,10",
-			"OffSeason": "Essiggurken"
+			"OffSeason": "",
+			"HandlingTips": [
+				"Frische Gurken NICHT im Kühlschrank aufbewahren! ",
+				"Gurken gibt es auch in Gläsern eingelegt. "
+			]
 		},
 		{
 			"Name": "Karotte",
 			"MainSeason": "1,2,3,4,5,6,7,8,9,10,11,12",
-			"OffSeason": ""
+			"OffSeason": "",
+			"HandlingTips": [
+				"Karotten werden auch Rüebli oder Möhren genannt und gibt es in verschiedenen Farben. ",
+				"Karotten im Kühlschrank aufbewahren. "
+			]
 		},
 		{
 			"Name": "Knollensellerie",
 			"MainSeason": "1,2,3,4,5,6,7,8,9,10,11,12",
-			"OffSeason": ""
+			"OffSeason": "",
+			"HandlingTips": [
+				"Knollensellerie im Kühlschrank aufbewahren. "
+			]
 		},
 		{
 			"Name": "Kohlrabi",
-			"MainSeason": "1,2,3,4,5,6,7,8,9,10,11,12",
-			"OffSeason": ""
-		},
-		{
-			"Name": "Mangold (Krautstiel)",
 			"MainSeason": "3,4,5,6,7,8,9,10,11",
-			"OffSeason": ""
+			"OffSeason": "",
+			"HandlingTips": [
+				"Kohlrabi im Kühlschrank aufbewahren. "
+			]
 		},
 		{
 			"Name": "Kürbis",
 			"MainSeason": "1,2,8,9,10,11,12",
-			"OffSeason": ""
+			"OffSeason": "",
+			"HandlingTips": [
+				"Es gibt verschiedene Sorten Kürbis", 
+				"Kürbis wird häufig angeschnitten verkauft und sollte dann im Kühlschrank aufbewahrt werden. ",
+				"Ein reifer Kürbis erkennt man durch den Klopftest (sollte sich hohl anhören) oder am trockenen Stiel", 
+				"Ein nicht reifer Kürbis kann an einem warmen Platz nachreifen. "
+			]
 		},
 		{
 			"Name": "Pastinake",
 			"MainSeason": "1,2,3,7,8,9,10,11,12",
-			"OffSeason": ""
+			"OffSeason": "",
+			"HandlingTips": [
+				"Pastinaken im Kühlschrank aufbewahren (ohne das Grün). "
+			]
 		},
 		{
 			"Name": "Peperoni",
 			"MainSeason": "6,7,8,9,10",
-			"OffSeason": ""
+			"OffSeason": "",
+			"HandlingTips": [
+				"Peperoni enthält besonders viele Vitamine und je nach Farbe unterschiedlich. ",
+				"Peperoni im Kühlschrank aufbewahren. "
+			]
 		},
 		{
 			"Name": "Radieschen",
 			"MainSeason": "1,2,3,4,5,6,7,8,9,10,11,12",
-			"OffSeason": ""
+			"OffSeason": "",
+			"HandlingTips": [
+				"Radieschen im Kühlschrank aufbewahren, aber vorher die Blätter wegnehmen. "
+			]
 		},
 		{
 			"Name": "Randen",
 			"MainSeason": "1,2,3,4,5,6,7,8,9,10,11,12",
-			"OffSeason": ""
+			"OffSeason": "",
+			"HandlingTips": [
+				"Wird oft schon gekocht eingekauft wegen der Oxalsäure. "
+			]
 		},
 		{
 			"Name": "Rettich",
 			"MainSeason": "4,5,6,7,8,9,10,11,12",
-			"OffSeason": ""
+			"OffSeason": "",
+			"HandlingTips": [
+				"Rettich hat ein intensives Aroma und wenn nicht gewohnt in kleinen Mengen verwendet werden. "
+			]
 		},
 		{
 			"Name": "Rosenkohl",
 			"MainSeason": "1,2,6,7,8,9,10,11,12",
-			"OffSeason": "Tiefgekühlt"
+			"OffSeason": "Tiefgekühlt",
+			"HandlingTips": [
+				"Rosenkohl im Kühlschrank aufbewahren. "
+			]
 		},	
 		{
 			"Name": "Romanesco",
 			"MainSeason": "5,6,7,8,9,10",
-			"OffSeason": ""
+			"OffSeason": "",
+			"HandlingTips": [
+				"Romanesco im Kühlschrank aufbewahren. "
+			]
 		},
 		{
 			"Name": "Rotkabis",
 			"MainSeason": "1,2,3,4,5,6,7,8,9,10,11,12",
-			"OffSeason": "(Rotkraut)"
+			"OffSeason": "Rotkraut",
+			"HandlingTips": [
+				"Kabis wird auch Kohl oder Kraut genannt und kann auch bläulich sein. ",
+				"Rotkabis kann auch in der Form von Rotkraut gekauft werden. "
+			]
 		},
 		{
 			"Name": "Schwarzwurzel",
 			"MainSeason": "1,2,3,4,5,10,11,12",
-			"OffSeason": ""
+			"OffSeason": "",
+			"HandlingTips": []
 		},
 		{
 			"Name": "Spargel",
 			"MainSeason": "4,5,6",
-			"OffSeason": ""
+			"OffSeason": "",
+			"HandlingTips": [
+				"Es gibt grüne und weisse Spargeln. "
+			]
 		},
 		{
 			"Name": "Spinat",
 			"MainSeason": "3,4,5,6,7,8,9,10,11",
-			"OffSeason": "Tiefgekühlt"
+			"OffSeason": "Tiefgekühlt",
+			"HandlingTips": [
+				"Spinat kann frisch oder (im Winter) tiefgekühlt gekauft werden. "
+			]
 		},
 		{
 			"Name": "Stangensellerie",
 			"MainSeason": "5,6,7,8,9,10,11,12",
-			"OffSeason": ""
+			"OffSeason": "",
+			"HandlingTips": [
+				"Stangensellerie im Kühlschrank aufbewahren. "
+			]
 		},
 		{
 			"Name": "Tomaten",
 			"MainSeason": "4,5,6,7,8,9,10,11",
-			"OffSeason": ""
+			"OffSeason": "",
+			"HandlingTips": [
+				"Es gibt viele verschiedene Tomatensorten. ",
+				"Tomaten im Kühlschrank aufbewahren. "
+			]
 		},
 		{
 			"Name": "Weisskabis",
 			"MainSeason": "1,2,3,4,5,6,7,8,9,10,11,12",
-			"OffSeason": "(Sauerkraut)"
+			"OffSeason": "Sauerkraut",
+			"HandlingTips": [
+				"Kabis wird auch Kohl oder Kraut genannt. ",
+				"Weisskabis kann auch in der Form von Sauerkraut gekauft werden. "
+			]
 		},
 		{
 			"Name": "Zucchetti",
 			"MainSeason": "5,6,7,8,9,10",
-			"OffSeason": ""
+			"OffSeason": "",
+			"HandlingTips": [
+				"Zucchetti im Kühlschrank aufbewahren. "
+			]
 		},
 		{
 			"Name": "Zuckermais",
 			"MainSeason": "8,9,10,11",
-			"OffSeason": "Dose"
-		},
-		{
-			"Name": "Süsskartoffeln",
-			"MainSeason": "",
-			"OffSeason": ""	
+			"OffSeason": "Dose",
+			"HandlingTips": [
+				"Wenn der Mais nicht frisch verfügbar ist, kann man auch eine Dose oder ein Glas kaufen. "
+			]
 		},
 		{
 			"Name": "Topinambur",
 			"MainSeason": "1,2,3,11,12",
-			"OffSeason": ""
+			"OffSeason": "",
+			"HandlingTips": [
+				"Topinambur im Kühlschrank aufbewahren. ",
+				"Topinambur sollte wenn nicht gewohnt (Verdauung) in kleiner Mengen verwendet werden. "
+			]
 		}
 	]
-
 }

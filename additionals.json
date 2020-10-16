@@ -1,73 +1,108 @@
 {
 	"Additionals": [
 		{
-			"Name": "Knoblauch"
+			"Name": "Knoblauch",
+			"HandlingTips": []
 		},
 		{
-			"Name": "Chili"
+			"Name": "Chili",
+			"HandlingTips": []
 		},
 		{
-			"Name": "Zwiebel"
+			"Name": "Zwiebel",
+			"HandlingTips": []	
 		},
 		{
-			"Name": "Leinsamen(schrot)"
+			"Name": "Leinsamen(schrot)",
+			"HandlingTips": []
 		},
 		{
-			"Name": "Hanfsamen"
+			"Name": "Hanfsamen",
+			"HandlingTips": []
 		},
 		{
-			"Name": "Sesam"
+			"Name": "Sesam",
+			"HandlingTips": []
 		},
 		{
-			"Name": "Kürbiskerne"
+			"Name": "Kürbiskerne",
+			"HandlingTips": []
 		},
 		{
-			"Name": "Apfelessig"
+			"Name": "Apfelessig",
+			"HandlingTips": []
 		},
 		{
-			"Name": "Weiss-/Rotwein (-Essig)"
+			"Name": "Weiss-/Rotwein (-Essig)",
+			"HandlingTips": []
 		},
 		{
-			"Name": "mediterane Kräuter"
+			"Name": "mediterane Kräuter",
+			"HandlingTips": []
 		},
 		{
-			"Name": "orientalische Kräuter"
+			"Name": "orientalische Kräuter",
+			"HandlingTips": []
 		},
 		{
-			"Name": "Curry"
+			"Name": "Curry",
+			"HandlingTips": []
 		},
 		{
-			"Name": "Zitronensaft"
+			"Name": "Zitronensaft",
+			"HandlingTips": []
 		},
 		{
-			"Name": "Lauch"
+			"Name": "Lauch",
+			"HandlingTips": []
 		},
 		{
-			"Name": "Ingwer"
+			"Name": "Ingwer",
+			"HandlingTips": []
 		},	
 		{
-			"Name": "Kurkuma"
+			"Name": "Kurkuma",
+			"HandlingTips": []
 		},
 		{
-			"Name": "Schalotte"
+			"Name": "Schalotte",
+			"HandlingTips": []
 		},
 		{
-			"Name": "Nussmus"
+			"Name": "Nussmus",
+			"HandlingTips": []
 		},
 		{
-			"Name": "Senf(-samen)"
+			"Name": "Senf(-samen)",
+			"HandlingTips": []
 		},
 		{
-			"Name": "Tomatensauce/-Püre/Pelati"
+			"Name": "Tomatensauce/-Püre/Pelati",
+			"HandlingTips": []
 		},
 		{
-			"Name": "Gemüsebouillon (mit Wasser)"
+			"Name": "Gemüsebouillon (mit Wasser)",
+			"HandlingTips": []
 		},
 		{
-			"Name": "Miso-Paste (mit Wasser)"
+			"Name": "Miso-Paste (mit Wasser)",
+			"HandlingTips": []
 		},
 		{
-			"Name": "Pilze"
+			"Name": "Pilze",
+			"HandlingTips": []
+		},
+		{
+			"Name": "Hefeflocken",
+			"HandlingTips": []
+		},
+		{
+			"Name": "Pflanzlicher Milchdrink z.B. Hafer, Reis, ...",
+			"HandlingTips": []
+		},
+		{
+			"Name": "Sojasauce/Tamari",
+			"HandlingTips": []
 		}
 	]
 }

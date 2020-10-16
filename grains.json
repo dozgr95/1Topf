@@ -1,46 +1,122 @@
 {
 	"Grains": [
 		{
-			"Name": "Quinoa"
+			"Name": "Quinoa",
+			"HandlingTips": [
+				"Quinoa kann man im Unverpackt-Laden kaufen und lange halten. ",
+				"Quinoa kann regional und in Bioqualität gekauft werden.  Kommt allerdings oft aus Südamerika :("
+			]
 		},
 		{
-			"Name": "Couscous"
+			"Name": "Couscous",
+			"HandlingTips": [
+				"Couscous kann man im Unverpackt-Laden kaufen und lange halten. "
+			]
 		},
 		{
-			"Name": "Hirse"
+			"Name": "Hirse",
+			"HandlingTips": [
+				"Hirse kann man im Unverpackt-Laden kaufen und lange halten. ",
+				"Hirse gibt es auch in der Form von Flocken (müssen nicht gekocht werden). ",
+				"Hirse kann regional und in Bioqualität gekauft werden. "
+			]
 		},
 		{
-			"Name": "Hafer"
+			"Name": "Hafer",
+			"HandlingTips": [
+				"Hafer kann man im Unverpackt-Laden kaufen und lange halten. ",
+				"Neben den bekannten Haferflocken (müssen nicht gekocht werden) gibt es auch unverarbeiteten Hafer",
+				"Hafer kann regional und in Bioqualität gekauft werden. "
+			]
 		},
 		{
-			"Name": "Bulgur"
+			"Name": "Bulgur",
+			"HandlingTips": [
+				"Bulgur kann man im Unverpackt-Laden kaufen und lange halten. "
+			]
 		},
 		{
-			"Name": "Buchweizen"
+			"Name": "Buchweizen",
+			"HandlingTips": [
+				"Buchweizen kann man im Unverpackt-Laden kaufen und lange halten. ",
+				"Buchweizen kann regional und in Bioqualität gekauft werden. "
+			]
 		},
 		{
-			"Name": "Reis"
+			"Name": "Reis",
+			"HandlingTips": [
+				"Reis kann man im Unverpackt-Laden kaufen und lange halten. ",
+				"Gibt verschiedene Sorten Reis, z.B. aus Italien, am Besten vollkorn. "
+			]
 		},
 		{
-			"Name": "Kartoffeln"
+			"Name": "Kartoffeln",
+			"HandlingTips": [
+				"Kartoffeln sollten dunkel und trocken aufbewahrt werden, d.h. nicht im Kühlschrank. ",
+				"Festkochende Kartoffeln eignen sich besser als Mehligkochende. "
+			]
 		},
 		{
-			"Name": "Weizenvollkorn-Teigwaren"
+			"Name": "Süsskartoffeln",
+			"HandlingTips": [
+				"Auf die Herkunft der Süsskartoffeln achten, kann regional gekauft werden. ",
+				"Süsskartoffeln sollten dunkel und trocken aufbewahrt werden, d.h. nicht im Kühlschrank. "
+			]
 		},
 		{
-			"Name": "Dinkelvollkorn-Teigwaren"
+			"Name": "Weizen(-Teigwaren)",
+			"HandlingTips": [
+				"Weizen(-Teigwaren) kann man im Unverpackt-Laden kaufen und lange halten. ",
+				"Die Weizen sollten unbedingt Vollkorn sein. ",
+				"Weizen kann regional und in Bioqualität gekauft werden",
+				"Teigwaren ohne Ei sind zu bevorzugen. "
+			]
 		},
 		{
-			"Name": "Gerste"
+			"Name": "Dinkel(-Teigwaren)",
+			"HandlingTips": [
+				"Dinkel(-Teigwaren) kann man im Unverpackt-Laden kaufen und lange halten. ",
+				"Die Dinkel sollten unbedingt Vollkorn sein. ",
+				"Dinkel kann regional und in Bioqualität gekauft werden",
+				"Teigwaren ohne Ei sind zu bevorzugen. "
+			]
 		},
 		{
-			"Name": "Amaranth"
+			"Name": "Gerste",
+			"HandlingTips": [
+				"Gerste kann man im Unverpackt-Laden kaufen und lange halten. ",
+				"Gerste kann regional und in Bioqualität gekauft werden"
+			]
+
 		},
 		{
-			"Name": "Emmer"
+			"Name": "Amaranth",
+			"HandlingTips": [
+				"Amaranth kann man im Unverpackt-Laden kaufen und lange halten. ",
+				"Amaranth gibt es auch als Pops (müssen nicht gekocht werden)",
+				"Amaranth kann in Bioqualität gekauft werden und kommt aber fast immer aus Indien. "
+			]
 		},
 		{
-			"Name": "Maisgriess"
+			"Name": "Emmer(-Teigwaren)",
+			"HandlingTips": [
+				"Emmer kann man im Unverpackt-Laden kaufen und lange halten. ",
+				"Die Emmer sollten unbedingt Vollkorn sein. ",
+				"Teigwaren ohne Ei sind zu bevorzugen. ",
+				"Gerste kann regional und in Bioqualität gekauft werden"
+			]
+		},
+		{
+			"Name": "Maisgriess",
+			"HandlingTips": [
+				"Maisgriess kann man im Unverpackt-Laden kaufen und lange halten. ",
+				"Maisgriess gibt es in verschiedenen Abstufungen von fein bis grob. ",
+				"Maisgriess kann regional und in Bioqualität gekauft werden"
+			]
+		},
+		{
+			"Name": "Ebly",
+			"HandlingTips": []
 		}
 	]
 }

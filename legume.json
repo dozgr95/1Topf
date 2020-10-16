@@ -1,58 +1,108 @@
 {
 	"Legumes": [
 		{
-			"Name": "Sojabohnen"
+			"Name": "Sojabohnen",
+			"HandlingTips": [
+				"Sojabohnen kann man roh im Unverpackt-Laden kaufen und lange halten. ",
+				"Soja kann regional und in Bioqualität gekauft werden. ",
+				"Rohe Sojabohnen sollte man waschen, 12 Stunden einweichen und anschliessend ca. 45min kochen. "
+			]
 		},
 		{
-			"Name": "Soja-Hack/Geschnetzeltes/Crispies"
+			"Name": "Soja-Hack",
+			"HandlingTips": [
+				"Soja-Hack (auch Crispies oder Granulat genannt) kann man im Unverpackt-Laden kaufen und lange halten. ",
+				"Soja kann regional und in Bioqualität gekauft werden. "
+			]
 		},
 		{	
-			"Name": "Seitan"
+			"Name": "Seitan",
+			"HandlingTips": [
+				"Seitan gibt es in vielen Formen z.B. Geschnetzeltes. ",
+				"Seitan ist aus Gluten, d.h. Dinkel oder Weizenprotein und kann regional und in Bioqualität gekauft werden. "
+			]
 		},
 		{
-			"Name": "Lupinenschrot"
+			"Name": "Lupinenschrot",
+			"HandlingTips": [
+				"Lupinen kann regional und in Bioqualität gekauft werden. "
+			]
 		},
 		{
-			"Name": "Erbsen"
+			"Name": "Erbsen",
+			"HandlingTips": [
+				"Erbsen werden am Besten tiefgekühlt und in Dosen/Gläsern gekauft werden. "
+			]
 		},
 		{
-			"Name": "Kefen"
+			"Name": "Kefen",
+			"HandlingTips": [
+				"Die Kefensaison ist von Juni bis September, andererseits gibt es auch Tiefgekühlte zu kaufen. "
+			]
 		},
 		{
-			"Name": "Stangen-Bohnen"
+			"Name": "Stangen-Bohnen", 
+			"HandlingTips": [
+				"Die Stangen-Bohnen-Saison ist von Juni bis Oktober, andererseits gibt es auch Tiefgekühlte zu kaufen. "
+			]
 		},
 		{
-			"Name": "Kichererbsen"
+			"Name": "Kichererbsen",
+			"HandlingTips": [
+				"Kichererbsen kann man roh im Unverpackt-Laden kaufen und lange halten. ",
+				"Kichererbsen können regional und in Bioqualität gekauft werden. ",
+				"Rohe Kichererbsen sollte man waschen, 12 Stunden einweichen und anschliessend ca. 45min kochen. ",
+				"Kichererbsen können in Dosen/Gläsern verzehrfertig gekauft werden. "
+			]
 		},
 		{
-			"Name": "Rote Linsen"
+			"Name": "Rote Linsen",
+			"HandlingTips": [
+				"Rote Linsen kann man roh im Unverpackt-Laden kaufen und lange halten. ",
+				"Rote Linsen können in Bioqualität gekauft werden z.B. aus Italien oder der Türkei. "
+			]
 		},
 		{
-			"Name": "Gelbe Linsen"
+			"Name": "Gelbe Linsen",
+			"HandlingTips": [
+				"Gelbe Linsen kann man roh im Unverpackt-Laden kaufen und lange halten. ",
+				"Gelbe Linsen können in Bioqualität gekauft werden z.B. aus Italien oder der Türkei. "
+			]
 		},
 		{
-			"Name": "Beluga Linsen"
+			"Name": "Beluga Linsen",
+			"HandlingTips": [
+				"Beluga (schwarze) Linsen kann man roh im Unverpackt-Laden kaufen und lange halten. ",
+				"Beluga Linsen können regional und in Bioqualität gekauft werden. "
+			]
 		},
 		{
-			"Name": "Berglinsen"
+			"Name": "Berglinsen",
+			"HandlingTips": [
+				"Berglinsen kann man roh im Unverpackt-Laden kaufen und lange halten. ",
+				"Berglinsen können regional und in Bioqualität gekauft werden. "
+			]
 		},
 		{
-			"Name": "Kidneybohnen"
+			"Name": "Bohnen",
+			"HandlingTips": [
+				"Kidney-Bohnen, Borlotti-Bohnen, Mungbohnen, Edamame etc kann man roh im Unverpackt-Laden kaufen und lange halten. ",
+				"Rohe Bohnen sollte man waschen, einweichen und kochen. ",
+				"Bohnen gibt es in Dosen/Gläsern verzehrfertig. ",
+				"Bohnen kommen fast immer aus China :("
+			]
 		},
 		{
-			"Name": "Borlotti-Bohnen"
+			"Name": "Tofu",
+			"HandlingTips": [
+				"Tofu wird aus Soja gemacht. Kann daher regional und in Bioqualität gekauft werden. "
+			]
 		},
 		{
-			"Name": "Tofu"
-		},
-		{
-			"Name": "Tempeh"
-		},
-		{
-			"Name": "Mungbohnen"
-		},
-		{
-			"Name": "Nüsse nach Wahl"
+			"Name": "Tempeh",
+			"HandlingTips": [
+				"Tempeh wird aus Soja (vereinzelt auch Lupinen) gemacht. Kann daher regional und in Bioqualität gekauft werden. "
+			]
 		}
 	]
 }
