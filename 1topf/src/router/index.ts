@@ -6,19 +6,19 @@ Vue.use(VueRouter);
 
 const routes: Array<RouteConfig> = [
   {
-    path: '/',
+    path: '/home',
     name: 'Home',
     component: Home,
   },
   {
-    path: '/easy',
-    name: 'EasyRecipe',
-    component: () => import('../views/EasyRecipe.vue'),
+    path: '/start',
+    name: 'start',
+    component: () => import('../views/StartRecipe.vue'),
   },
   {
-    path: '/advanced',
-    name: 'AdvancedRecipe',
-    component: () => import('../views/AdvancedRecipe.vue'),
+    path: '/cooking',
+    name: 'cooking',
+    component: () => import('../views/Cooking.vue'),
   },
 ];
 
