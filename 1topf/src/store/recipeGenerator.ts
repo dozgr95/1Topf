@@ -12,6 +12,16 @@ const checkVeggieSeason = (veggie: Veggie): boolean => {
   return isSeason;
 };
 
+const randomFoodSelector = (loadedList: Food[], recipeList: Food[], amount: number) => {
+  let counter = 0;
+  while (amount > counter) {
+    const randInd = Math.floor(Math.random() * loadedList.length);
+    recipeList.push(loadedList[randInd]);
+    loadedList.splice(randInd, 1);
+    counter = 1 + counter;
+  }
+};
+
 export const generateNewRecipe = (veggieAmount: number, legumeAmount: number,
   grainAmount: number, additionalAmount: number) => {
   const newRecipe: Recipe = {
@@ -29,38 +39,11 @@ export const generateNewRecipe = (veggieAmount: number, legumeAmount: number,
 
   // filter season
   const seasonVeggies = lists.veggies.filter((veggie) => checkVeggieSeason(veggie));
-  console.log(seasonVeggies);
-  let counter = 0;
-  while (veggieAmount > counter) {
-    const randInd = Math.floor(Math.random() * seasonVeggies.length);
-    newRecipe.veggies.push(seasonVeggies[randInd]);
-    seasonVeggies.splice(randInd, 1);
-    counter = 1 + counter;
-  }
 
-  counter = 0;
-  while (legumeAmount > counter) {
-    const randInd = Math.floor(Math.random() * lists.legumes.length);
-    newRecipe.legumes.push(lists.legumes[randInd]);
-    lists.legumes.splice(randInd, 1);
-    counter = 1 + counter;
-  }
-
-  counter = 0;
-  while (grainAmount > counter) {
-    const randInd = Math.floor(Math.random() * lists.grains.length);
-    newRecipe.grains.push(lists.grains[randInd]);
-    lists.grains.splice(randInd, 1);
-    counter = 1 + counter;
-  }
-
-  counter = 0;
-  while (additionalAmount > counter) {
-    const randInd = Math.floor(Math.random() * lists.additionals.length);
-    newRecipe.additionals.push(lists.additionals[randInd]);
-    lists.additionals.splice(randInd, 1);
-    counter = 1 + counter;
-  }
+  randomFoodSelector(seasonVeggies, newRecipe.veggies, veggieAmount);
+  randomFoodSelector(lists.legumes, newRecipe.legumes, legumeAmount);
+  randomFoodSelector(lists.grains, newRecipe.grains, grainAmount);
+  randomFoodSelector(lists.additionals, newRecipe.additionals, additionalAmount);
 
   return newRecipe;
 };
@@ -72,20 +55,18 @@ export interface Recipe {
     additionals: Additional[];
 }
 
-export interface Veggie {
-  Name: string;
+export interface Veggie extends Food {
   MainSeason: string;
   OffSeason: string;
 }
 
-export interface Legume {
-  Name: string;
-}
+export type Legume = Food
 
-export interface Grain {
-  Name: string;
-}
+export type Grain = Food
 
-export interface Additional {
+export type Additional = Food
+
+export interface Food {
   Name: string;
+  HandlingTips: string[];
 }
