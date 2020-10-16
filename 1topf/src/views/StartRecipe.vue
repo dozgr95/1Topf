@@ -31,7 +31,7 @@
       - {{ tip }}<br>
     </div>
     <hr>
-    <process-recipe v-if="getRecipe().veggies.length > 0"/>
+    <process-recipe />
   </div>
 </template>
 

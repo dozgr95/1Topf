@@ -1,19 +1,21 @@
 <template>
   <div class="Process">
     tbd option to select food
-    <process-recipe v-if="getRecipe().veggies.length > 0"/>
+    <process-recipe />
   </div>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
-import { Recipe, Food } from '../store/recipeGenerator';
+import { Recipe } from '../store/recipeGenerator';
+import ProcessRecipe from './ProcessRecipe.vue';
 
 @Component({
   components: {
+    ProcessRecipe,
   },
 })
-export default class ProcessRecipe extends Vue {
+export default class Cooking extends Vue {
   public generateCookingSteps() {
     this.$store.dispatch('generateCookingSteps');
   }

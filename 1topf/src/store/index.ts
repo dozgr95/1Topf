@@ -1,5 +1,6 @@
 import Vue from 'vue';
 import Vuex from 'vuex';
+import { RecipeFormulator } from './cookingStepsFormulator';
 import {
   Additional, generateNewRecipe, Grain, Legume, Recipe, Veggie,
 } from './recipeGenerator';
@@ -65,8 +66,8 @@ export default new Vuex.Store({
       this.commit('setAdditionals', additionals);
     },
     generateCookingSteps() {
-      // analyze props of fooditems (in recipe)
-      this.commit('setCookingSteps', ['hello 1', 'hello 2']);
+      const steps: string[] = RecipeFormulator(this.getters.recipe);
+      this.commit('setCookingSteps', steps);
     },
   },
   getters: {

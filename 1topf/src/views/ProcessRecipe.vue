@@ -1,13 +1,20 @@
 <template>
-  <div class="Process">
+  <div class="Process" v-if="true">
     <!-- get recipe and form a description/process for cooking -->
     <button @click="generateCookingSteps">
       Zeig mir das Vorgehen
     </button>
     <br><br>
-    <div v-for="step in getCookingSteps()" :key="step">
-      - {{ step }}<br>
+    <div v-if="getCookingSteps().length > 0">
+      <div v-for="step in getCookingSteps()" :key="step">
+        - {{ step }}<br>
+      </div>
     </div>
+    <br>
+    <hr>
+    Weitere Hinweise zu den Lebensmitteln:
+      tbd
+    <br>
   </div>
 </template>
 
