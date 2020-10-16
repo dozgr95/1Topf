@@ -1,0 +1,30 @@
+<template>
+  <div class="Process">
+    <!-- get recipe and form a description/process for cooking -->
+    <button @click="generateCookingSteps">
+      Zeig mir das Vorgehen
+    </button>
+    <br><br>
+    <div v-for="step in getCookingSteps()" :key="step">
+      - {{ step }}<br>
+    </div>
+  </div>
+</template>
+
+<script lang="ts">
+import { Component, Vue } from 'vue-property-decorator';
+
+@Component({
+  components: {
+  },
+})
+export default class ProcessRecipe extends Vue {
+  public generateCookingSteps() {
+    this.$store.dispatch('generateCookingSteps');
+  }
+
+  public getCookingSteps(): string[] {
+    return this.$store.getters.cookingSteps;
+  }
+}
+</script>

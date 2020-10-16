@@ -1,10 +1,11 @@
 <template>
   <div id="app">
     <div id="nav">
-      Ernährung beginnt beim Einkaufen
-      <router-link to="/">Home</router-link> |
-      <router-link to="/easy">Einfaches Rezept - Einkaufsliste erstellen</router-link>  |
-      <router-link to="/advanced">The real shit</router-link>
+      Willkommen zu 1Topf - einkaufen, kochen und essen <br><br>
+      <router-link to="/start">Hilf mir Einkaufen (Die Ernährung beginnt beim Einkaufen!)
+        </router-link> <br> <br>
+      <router-link to="/cooking">Hilf mir kochen (Ich stehe in der Küche)</router-link> <br> <br>
+       <router-link to="/home">Ich will mehr wissen über 1Topf wissen</router-link>
     </div>
     <router-view/>
   </div>
