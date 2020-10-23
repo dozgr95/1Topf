@@ -7,12 +7,12 @@
     <br><br>
     <div v-if="getCookingSteps().length > 0">
       <div v-for="step in getCookingSteps()" :key="step">
-        - {{ step }}<br>
+        <div v-if="step">{{ step }}<br></div>
       </div>
     </div>
     <br>
     <hr>
-    Weitere Hinweise zu den Lebensmitteln:
+    Tipps zur Verwendung der Zutaten für den 1Topf:
       tbd
     <br>
   </div>

@@ -27,6 +27,9 @@
     </div>
     <br>
     <hr>
+    <div>
+      <b>Ein paar Tipps für den Einkauf und die Lagerung der Zutaten:</b>
+    </div>
     <div v-for="tip in getHandlingTips()" :key="tip">
       - {{ tip }}<br>
     </div>
