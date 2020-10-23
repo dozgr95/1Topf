@@ -2,107 +2,225 @@
 	"Additionals": [
 		{
 			"Name": "Knoblauch",
-			"HandlingTips": []
+			"HandlingTips": [
+				"Knoblauch sollte nicht Luftdicht gelagert werden. Dafür trocken und dunkel. "
+			],
+			"CookingTips": [
+
+			],
+			"roastFirst": true
 		},
 		{
 			"Name": "Chili",
-			"HandlingTips": []
+			"HandlingTips": [],
+			"CookingTips": [
+
+			],
+			"roastFirst": true
 		},
 		{
 			"Name": "Zwiebel",
-			"HandlingTips": []	
+			"HandlingTips": [
+				"Zwiebeln sollten nicht Luftdicht gelagert werden. Dafür trocken und dunkel. "
+			],
+			"CookingTips": [
+
+			],
+			"roastFirst": true
 		},
 		{
 			"Name": "Leinsamen(schrot)",
-			"HandlingTips": []
+			"HandlingTips": [],
+			"CookingTips": [
+
+			],
+			"finish": true
 		},
 		{
 			"Name": "Hanfsamen",
-			"HandlingTips": []
+			"HandlingTips": [],
+			"CookingTips": [
+
+			],
+			"finish": true
 		},
 		{
 			"Name": "Sesam",
-			"HandlingTips": []
+			"HandlingTips": [],
+			"CookingTips": [
+
+			],
+			"finish": true
 		},
 		{
 			"Name": "Kürbiskerne",
-			"HandlingTips": []
+			"HandlingTips": [],
+			"CookingTips": [
+
+			],
+			"finish": true
 		},
 		{
 			"Name": "Apfelessig",
-			"HandlingTips": []
+			"HandlingTips": [],
+			"CookingTips": [
+
+			],
+			"sauce": true
 		},
 		{
 			"Name": "Weiss-/Rotwein (-Essig)",
-			"HandlingTips": []
+			"HandlingTips": [],
+			"CookingTips": [
+
+			],
+			"sauce": true
 		},
 		{
 			"Name": "mediterane Kräuter",
-			"HandlingTips": []
+			"HandlingTips": [],
+			"CookingTips": [
+
+			],
+			"sauce": true
 		},
 		{
 			"Name": "orientalische Kräuter",
-			"HandlingTips": []
+			"HandlingTips": [],
+			"CookingTips": [
+
+			],
+			"sauce": true
 		},
 		{
 			"Name": "Curry",
-			"HandlingTips": []
+			"HandlingTips": [],
+			"CookingTips": [
+
+			],
+			"sauce": true
 		},
 		{
 			"Name": "Zitronensaft",
-			"HandlingTips": []
+			"HandlingTips": [],
+			"CookingTips": [
+
+			],
+			"finish": true
 		},
 		{
 			"Name": "Lauch",
-			"HandlingTips": []
+			"HandlingTips": [
+				"Lauch sollte nicht Luftdicht gelagert werden. Dafür trocken und dunkel. "
+			],
+			"CookingTips": [
+
+			],
+			"roastFirst": true
 		},
 		{
 			"Name": "Ingwer",
-			"HandlingTips": []
+			"HandlingTips": [],
+			"CookingTips": [
+
+			],
+			"roastFirst": true
 		},	
 		{
 			"Name": "Kurkuma",
-			"HandlingTips": []
+			"HandlingTips": [],
+			"CookingTips": [
+
+			],
+			"roastFirst": true
 		},
 		{
 			"Name": "Schalotte",
-			"HandlingTips": []
+			"HandlingTips": [],
+			"CookingTips": [
+
+			],
+			"roastFirst": true
 		},
 		{
 			"Name": "Nussmus",
-			"HandlingTips": []
+			"HandlingTips": [],
+			"CookingTips": [
+
+			],
+			"sauce": true
 		},
 		{
-			"Name": "Senf(-samen)",
-			"HandlingTips": []
+			"Name": "Senf",
+			"HandlingTips": [],
+			"CookingTips": [
+
+			],
+			"sauce": true
 		},
 		{
 			"Name": "Tomatensauce/-Püre/Pelati",
-			"HandlingTips": []
+			"HandlingTips": [],
+			"CookingTips": [
+
+			],
+			"sauce": true
 		},
 		{
 			"Name": "Gemüsebouillon (mit Wasser)",
-			"HandlingTips": []
+			"HandlingTips": [],
+			"CookingTips": [
+
+			],
+			"sauce": true
 		},
 		{
 			"Name": "Miso-Paste (mit Wasser)",
-			"HandlingTips": []
+			"HandlingTips": [],
+			"CookingTips": [
+
+			],
+			"sauce": true
 		},
 		{
 			"Name": "Pilze",
-			"HandlingTips": []
+			"HandlingTips": [],
+			"CookingTips": [
+
+			],
+			"roastFirst": true
 		},
 		{
 			"Name": "Hefeflocken",
-			"HandlingTips": []
+			"HandlingTips": [],
+			"CookingTips": [
+
+			],
+			"sauce": true
 		},
 		{
 			"Name": "Pflanzlicher Milchdrink z.B. Hafer, Reis, ...",
-			"HandlingTips": []
+			"HandlingTips": [],
+			"CookingTips": [
+
+			],
+			"sauce": true
 		},
 		{
 			"Name": "Sojasauce/Tamari",
-			"HandlingTips": []
+			"HandlingTips": [],
+			"CookingTips": [
+
+			],
+			"sauce": true
+		},
+		{
+			"Name": "Mehl",
+			"HandlingTips": [],
+			"CookingTips": [
+
+			],
+			"sauce": true
 		}
 	]
 }

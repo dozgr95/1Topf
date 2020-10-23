@@ -6,45 +6,73 @@
 				"Sojabohnen kann man roh im Unverpackt-Laden kaufen und lange halten. ",
 				"Soja kann regional und in Bioqualität gekauft werden. ",
 				"Rohe Sojabohnen sollte man waschen, 12 Stunden einweichen und anschliessend ca. 45min kochen. "
-			]
+			],
+			"CookingTips": [
+				"Rohe Sojabohnen müssen vorher separat gekocht werden. "
+			],
+			"finish": true
 		},
 		{
 			"Name": "Soja-Hack",
 			"HandlingTips": [
 				"Soja-Hack (auch Crispies oder Granulat genannt) kann man im Unverpackt-Laden kaufen und lange halten. ",
 				"Soja kann regional und in Bioqualität gekauft werden. "
-			]
+			],
+			"CookingTips": [
+				"Soja-Hack kann mit ein wenig Flüssigkeit mit dem Rest in der Pfanne mitgekocht werden. "
+			],
+			"sauce": true
 		},
 		{	
 			"Name": "Seitan",
 			"HandlingTips": [
 				"Seitan gibt es in vielen Formen z.B. Geschnetzeltes. ",
 				"Seitan ist aus Gluten, d.h. Dinkel oder Weizenprotein und kann regional und in Bioqualität gekauft werden. "
-			]
+			],
+			"CookingTips": [
+
+			],
+			"roastSecond": true
 		},
 		{
 			"Name": "Lupinenschrot",
 			"HandlingTips": [
 				"Lupinen kann regional und in Bioqualität gekauft werden. "
-			]
+			],
+			"CookingTips": [
+				"Lupinenschrot kann mit ein wenig Flüssigkeit mit dem Rest in der Pfanne mitgekocht werden. "
+			],
+			"sauce": true
 		},
 		{
 			"Name": "Erbsen",
 			"HandlingTips": [
 				"Erbsen werden am Besten tiefgekühlt oder in Dosen/Gläsern gekauft werden. "
-			]
+			],
+			"CookingTips": [
+
+			],
+			"roastSecond": true
 		},
 		{
 			"Name": "Kefen",
 			"HandlingTips": [
 				"Die Kefensaison ist von Juni bis September, andererseits gibt es auch Tiefgekühlte zu kaufen. "
-			]
+			],
+			"CookingTips": [
+
+			],
+			"roastSecond": true
 		},
 		{
 			"Name": "Stangen-Bohnen", 
 			"HandlingTips": [
 				"Die Stangen-Bohnen-Saison ist von Juni bis Oktober, andererseits gibt es auch Tiefgekühlte zu kaufen. "
-			]
+			],
+			"CookingTips": [
+				"Rohe Bohnen sollten vorher separat gekocht werden. "
+			],
+			"finish": true
 		},
 		{
 			"Name": "Kichererbsen",
@@ -53,35 +81,55 @@
 				"Kichererbsen können regional und in Bioqualität gekauft werden. ",
 				"Rohe Kichererbsen sollte man waschen, 12 Stunden einweichen und anschliessend ca. 45min kochen. ",
 				"Kichererbsen können in Dosen/Gläsern verzehrfertig gekauft werden. "
-			]
+			],
+			"CookingTips": [
+				"Rohe Kichererbsen müssen vorher separat gekocht werden. "
+			],
+			"finish": true			
 		},
 		{
 			"Name": "Rote Linsen",
 			"HandlingTips": [
 				"Rote Linsen kann man roh im Unverpackt-Laden kaufen und lange halten. ",
 				"Rote Linsen können in Bioqualität gekauft werden z.B. aus Italien oder der Türkei. "
-			]
+			],
+			"CookingTips": [
+				"Rote Linsen können mit ein wenig Flüssigkeit mit dem Rest in der Pfanne mitgekocht werden. "
+			],
+			"sauce": true
 		},
 		{
 			"Name": "Gelbe Linsen",
 			"HandlingTips": [
 				"Gelbe Linsen kann man roh im Unverpackt-Laden kaufen und lange halten. ",
 				"Gelbe Linsen können in Bioqualität gekauft werden z.B. aus Italien oder der Türkei. "
-			]
+			],
+			"CookingTips": [
+				"Gelbe Linsen müssen vorher separat gekocht werden. "
+			],
+			"finish": true
 		},
 		{
 			"Name": "Beluga Linsen",
 			"HandlingTips": [
 				"Beluga (schwarze) Linsen kann man roh im Unverpackt-Laden kaufen und lange halten. ",
 				"Beluga Linsen können regional und in Bioqualität gekauft werden. "
-			]
+			],
+			"CookingTips": [
+				"Berglinsen müssen vorher separat gekocht werden. "
+			],
+			"finish": true
 		},
 		{
 			"Name": "Berglinsen",
 			"HandlingTips": [
 				"Berglinsen kann man roh im Unverpackt-Laden kaufen und lange halten. ",
 				"Berglinsen können regional und in Bioqualität gekauft werden. "
-			]
+			],
+			"CookingTips": [
+				"Berglinsen müssen vorher separat gekocht werden. "
+			],
+			"finish": true
 		},
 		{
 			"Name": "Bohnen",
@@ -90,19 +138,31 @@
 				"Rohe Bohnen sollte man waschen, einweichen und kochen. ",
 				"Bohnen gibt es in Dosen/Gläsern verzehrfertig. ",
 				"Bohnen kommen fast immer aus China :("
-			]
+			],
+			"CookingTips": [
+				"Rohe Bohnen sollten vorher separat gekocht werden. "
+			],
+			"roastSecond": true
 		},
 		{
 			"Name": "Tofu",
 			"HandlingTips": [
 				"Tofu wird aus Soja gemacht. Kann daher regional und in Bioqualität gekauft werden. "
-			]
+			],
+			"CookingTips": [
+
+			],
+			"roastSecond": true
 		},
 		{
 			"Name": "Tempeh",
 			"HandlingTips": [
 				"Tempeh wird aus Soja (vereinzelt auch Lupinen) gemacht. Kann daher regional und in Bioqualität gekauft werden. "
-			]
+			],
+			"CookingTips": [
+
+			],
+			"roastSecond": true
 		}
 	]
 }
