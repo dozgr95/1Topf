@@ -1,12 +1,9 @@
-// import types
-
 import { Food, Recipe } from './recipeGenerator';
 
-const concatFoodList = (foods: Food[], recipePart: Food[]): Food[] => {
+const concatFoodList = (foods: Food[], recipePart: Food[]) => {
   recipePart.forEach((food) => {
     foods.push(food);
   });
-  return foods;
 };
 
 const stringConcatRuler = (foods: Food[]): string => {
@@ -20,10 +17,10 @@ const stringConcatRuler = (foods: Food[]): string => {
     while (counter < foods.length) {
       if (counter !== 0) {
         output = `${output}, ${foods[counter].Name}`;
-        counter += 1;
       } else {
         output = foods[counter].Name;
       }
+      counter += 1;
     }
   }
   return output;
@@ -39,22 +36,49 @@ const fillInRoastFirst = (foods: Food[]): string => {
   return output;
 };
 
-export const RecipeFormulator = (recipe: Recipe) => {
-  let foods: Food[] = [];
-  foods = concatFoodList(foods, recipe.veggies);
-  foods = concatFoodList(foods, recipe.legumes);
-  foods = concatFoodList(foods, recipe.grains);
-  foods = concatFoodList(foods, recipe.additionals);
+const fillInRoastSecond = (foods: Food[]): string => {
+  let output = '';
+  const roastSecondList = foods.filter((food) => food.roastSecond);
+  output = stringConcatRuler(roastSecondList);
+  if (output) {
+    output = `Anschliessend brate ${output}`;
+  }
+  return output;
+};
 
-  // concat each step
+const fillInSauce = (foods: Food[]): string => {
+  let output = '';
+  const sauceList = foods.filter((food) => food.sauce);
+  output = stringConcatRuler(sauceList);
+  if (output) {
+    output = `Nun füge ${output} hinzu`;
+  }
+  return output;
+};
+
+const fillInFinish = (foods: Food[]): string => {
+  let output = '';
+  const finishList = foods.filter((food) => food.finish);
+  output = stringConcatRuler(finishList);
+  if (output) {
+    output = `Als letzes kommen noch ${output} in die Pfanne. `;
+  }
+  return output;
+};
+
+export const RecipeFormulator = (recipe: Recipe) => {
+  const foods: Food[] = [];
+  concatFoodList(foods, recipe.veggies);
+  concatFoodList(foods, recipe.legumes);
+  concatFoodList(foods, recipe.grains);
+  concatFoodList(foods, recipe.additionals);
   const cookingSteps: CookingSteps = {
     preparation: 'Erwärme Rapsöl in einer grossen Bratpfanne. ',
-    roastFirst: `${fillInRoastFirst(foods)}`,
-    roastSecond: `Anschliessend brate ${recipe.veggies[0].Name}`,
-    sauce: `Nun füge ${recipe.veggies[0].Name} hinzu. `,
-    finish: `Als letzes kommen noch ${recipe.veggies[0].Name} in die Pfanne. `,
+    roastFirst: fillInRoastFirst(foods),
+    roastSecond: fillInRoastSecond(foods),
+    sauce: fillInSauce(foods),
+    finish: fillInFinish(foods),
   };
-
   return [cookingSteps.preparation, cookingSteps.roastFirst,
     cookingSteps.roastSecond, cookingSteps.sauce, cookingSteps.finish];
 };

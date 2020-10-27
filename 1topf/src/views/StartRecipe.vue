@@ -60,7 +60,6 @@ export default class StartRecipe extends Vue {
   public getHandlingTips(): string[] {
     const tips: string[] = [];
     const recipe: Recipe = this.getRecipe();
-    console.log(recipe);
     recipe.veggies.forEach((veggie: Food) => {
       veggie.HandlingTips.forEach((tip: string) => tips.push(tip));
     });

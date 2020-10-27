@@ -16,16 +16,6 @@ import ProcessRecipe from './ProcessRecipe.vue';
   },
 })
 export default class Cooking extends Vue {
-  public generateCookingSteps() {
-    this.$store.dispatch('generateCookingSteps');
-  }
 
-  public getRecipe(): Recipe {
-    return this.$store.getters.recipe;
-  }
-
-  public getCookingSteps(): string[] {
-    return this.$store.getters.cookingSteps;
-  }
 }
 </script>

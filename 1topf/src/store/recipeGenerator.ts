@@ -69,6 +69,7 @@ export type Additional = Food
 export interface Food {
   Name: string;
   HandlingTips: string[];
+  CookingTips: string[];
   roastFirst?: boolean;
   roastSecond?: boolean;
   sauce?: boolean;
