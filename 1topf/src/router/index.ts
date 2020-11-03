@@ -11,14 +11,14 @@ const routes: Array<RouteConfig> = [
     component: Home,
   },
   {
-    path: '/start',
-    name: 'start',
-    component: () => import('../views/StartRecipe.vue'),
+    path: '/random',
+    name: 'random',
+    component: () => import('../views/Random.vue'),
   },
   {
-    path: '/cooking',
-    name: 'cooking',
-    component: () => import('../views/Cooking.vue'),
+    path: '/creator',
+    name: 'creator',
+    component: () => import('../views/Creator.vue'),
   },
 ];
 

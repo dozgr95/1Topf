@@ -1,5 +1,5 @@
 <template>
-  <div class="easy-recipe">
+  <div class="random-recipe">
     <button @click="generateEasyRecipe">
       Rezept für einen kleinen Topf
     </button>
@@ -7,34 +7,45 @@
       Rezept für einen grossen Topf
     </button>
     <br><br>
-    <div v-if="getRecipe().veggies.length === 1">
-      <b>Einkaufsliste:</b><br>
+    <div v-if="hasRecipe()">
+      <process-recipe />
+    </div>
+    <br><br>
+    <div class="shopping-button">
+      <button @click="showShoppingList = !showShoppingList">
+        Zutatenliste zum Einkaufen
+      </button>
+    </div>
+    <div class="storage-button">
+      <button @click="showHandlingTips = !showHandlingTips">
+        Einkaufstipps
+      </button>
+    </div>
+    <div v-if="showShoppingList && hasRecipe() ">
+      <br><b>Einkaufsliste:</b><br>
       1. Zutat: {{ getRecipe().veggies[0].Name }} <br>
+      <div v-if="getRecipe().veggies.length === 2">
+        1b. Zutat: {{ getRecipe().veggies[1].Name }}<br>
+      </div>
       2. Zutat: {{ getRecipe().legumes[0].Name }}  <br>
       3. Zutat: {{ getRecipe().grains[0].Name }} <br>
       4a. Zutat: {{ getRecipe().additionals[0].Name }} <br>
       4b. Zutat: {{ getRecipe().additionals[1].Name }} <br>
+      <div v-if="getRecipe().veggies.length === 2">
+        4c. Zutat: {{ getRecipe().additionals[2].Name }} <br>
+      </div>
+      zusätzlich ÖL, ?
+
     </div>
-    <div v-if="getRecipe().veggies.length === 2"> <!-- CONDITION HERE !   -->
-      <b>Einkaufsliste: </b><br>
-      1a. Zutat: {{ getRecipe().veggies[0].Name }} <br>
-      1b. Zutat: {{ getRecipe().veggies[1].Name }} <br>
-      2. Zutat: {{ getRecipe().legumes[0].Name }}  <br>
-      3. Zutat: {{ getRecipe().grains[0].Name }} <br>
-      4a. Zutat: {{ getRecipe().additionals[0].Name }} <br>
-      4b. Zutat: {{ getRecipe().additionals[1].Name }} <br>
-      4c. Zutat: {{ getRecipe().additionals[2].Name }} <br>
+    <div v-if="showHandlingTips">
+      <br>
+      <div>
+        <b>Ein paar Tipps für den Einkauf und die Lagerung der Zutaten:</b>
+      </div>
+      <div v-for="tip in getHandlingTips()" :key="tip">
+        - {{ tip }}<br>
+      </div>
     </div>
-    <br>
-    <hr>
-    <div>
-      <b>Ein paar Tipps für den Einkauf und die Lagerung der Zutaten:</b>
-    </div>
-    <div v-for="tip in getHandlingTips()" :key="tip">
-      - {{ tip }}<br>
-    </div>
-    <hr>
-    <process-recipe />
   </div>
 </template>
 
@@ -48,7 +59,15 @@ import ProcessRecipe from './ProcessRecipe.vue';
     ProcessRecipe,
   },
 })
-export default class StartRecipe extends Vue {
+export default class RandomRecipe extends Vue {
+  public showShoppingList = false;
+
+  public showHandlingTips = false;
+
+  public hasRecipe() {
+    return this.getRecipe().veggies.length >= 1;
+  }
+
   public generateEasyRecipe() {
     this.$store.dispatch('generateEasyRecipe');
   }

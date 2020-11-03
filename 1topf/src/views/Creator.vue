@@ -15,7 +15,7 @@ import ProcessRecipe from './ProcessRecipe.vue';
     ProcessRecipe,
   },
 })
-export default class Cooking extends Vue {
+export default class RecipeCreator extends Vue {
 
 }
 </script>

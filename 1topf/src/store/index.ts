@@ -52,6 +52,7 @@ export default new Vuex.Store({
       this.commit('setLegumes', legumes);
       this.commit('setGrains', grains);
       this.commit('setAdditionals', additionals);
+      this.dispatch('generateCookingSteps');
     },
     generateAdvancedRecipe() {
       const {
@@ -64,6 +65,7 @@ export default new Vuex.Store({
       this.commit('setLegumes', legumes);
       this.commit('setGrains', grains);
       this.commit('setAdditionals', additionals);
+      this.dispatch('generateCookingSteps');
     },
     generateCookingSteps() {
       const steps: string[] = RecipeFormulator(this.getters.recipe);
