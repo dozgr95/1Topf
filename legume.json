@@ -7,7 +7,7 @@
 				"Soja kann regional und in Bioqualität gekauft werden. ",
 				"Rohe Sojabohnen sollte man waschen, 12 Stunden einweichen und anschliessend ca. 45min kochen. "
 			],
-			"CookingTips": [
+			"PreparationSteps": [
 				"Rohe Sojabohnen müssen vorher separat gekocht werden. "
 			],
 			"finish": true
@@ -18,7 +18,7 @@
 				"Soja-Hack (auch Crispies oder Granulat genannt) kann man im Unverpackt-Laden kaufen und lange halten. ",
 				"Soja kann regional und in Bioqualität gekauft werden. "
 			],
-			"CookingTips": [
+			"PreparationSteps": [
 				"Soja-Hack kann mit ein wenig Flüssigkeit mit dem Rest in der Pfanne mitgekocht werden. "
 			],
 			"sauce": true
@@ -29,7 +29,7 @@
 				"Seitan gibt es in vielen Formen z.B. Geschnetzeltes. ",
 				"Seitan ist aus Gluten, d.h. Dinkel oder Weizenprotein und kann regional und in Bioqualität gekauft werden. "
 			],
-			"CookingTips": [
+			"PreparationSteps": [
 
 			],
 			"roastSecond": true
@@ -39,7 +39,7 @@
 			"HandlingTips": [
 				"Lupinen kann regional und in Bioqualität gekauft werden. "
 			],
-			"CookingTips": [
+			"PreparationSteps": [
 				"Lupinenschrot kann mit ein wenig Flüssigkeit mit dem Rest in der Pfanne mitgekocht werden. "
 			],
 			"sauce": true
@@ -49,7 +49,7 @@
 			"HandlingTips": [
 				"Erbsen werden am Besten tiefgekühlt oder in Dosen/Gläsern gekauft werden. "
 			],
-			"CookingTips": [
+			"PreparationSteps": [
 
 			],
 			"roastSecond": true
@@ -59,7 +59,7 @@
 			"HandlingTips": [
 				"Die Kefensaison ist von Juni bis September, andererseits gibt es auch Tiefgekühlte zu kaufen. "
 			],
-			"CookingTips": [
+			"PreparationSteps": [
 
 			],
 			"roastSecond": true
@@ -69,7 +69,7 @@
 			"HandlingTips": [
 				"Die Stangen-Bohnen-Saison ist von Juni bis Oktober, andererseits gibt es auch Tiefgekühlte zu kaufen. "
 			],
-			"CookingTips": [
+			"PreparationSteps": [
 				"Rohe Bohnen sollten vorher separat gekocht werden. "
 			],
 			"finish": true
@@ -82,7 +82,7 @@
 				"Rohe Kichererbsen sollte man waschen, 12 Stunden einweichen und anschliessend ca. 45min kochen. ",
 				"Kichererbsen können in Dosen/Gläsern verzehrfertig gekauft werden. "
 			],
-			"CookingTips": [
+			"PreparationSteps": [
 				"Rohe Kichererbsen müssen vorher separat gekocht werden. "
 			],
 			"finish": true			
@@ -93,7 +93,7 @@
 				"Rote Linsen kann man roh im Unverpackt-Laden kaufen und lange halten. ",
 				"Rote Linsen können in Bioqualität gekauft werden z.B. aus Italien oder der Türkei. "
 			],
-			"CookingTips": [
+			"PreparationSteps": [
 				"Rote Linsen können mit ein wenig Flüssigkeit mit dem Rest in der Pfanne mitgekocht werden. "
 			],
 			"sauce": true
@@ -104,7 +104,7 @@
 				"Gelbe Linsen kann man roh im Unverpackt-Laden kaufen und lange halten. ",
 				"Gelbe Linsen können in Bioqualität gekauft werden z.B. aus Italien oder der Türkei. "
 			],
-			"CookingTips": [
+			"PreparationSteps": [
 				"Gelbe Linsen müssen vorher separat gekocht werden. "
 			],
 			"finish": true
@@ -115,7 +115,7 @@
 				"Beluga (schwarze) Linsen kann man roh im Unverpackt-Laden kaufen und lange halten. ",
 				"Beluga Linsen können regional und in Bioqualität gekauft werden. "
 			],
-			"CookingTips": [
+			"PreparationSteps": [
 				"Berglinsen müssen vorher separat gekocht werden. "
 			],
 			"finish": true
@@ -126,7 +126,7 @@
 				"Berglinsen kann man roh im Unverpackt-Laden kaufen und lange halten. ",
 				"Berglinsen können regional und in Bioqualität gekauft werden. "
 			],
-			"CookingTips": [
+			"PreparationSteps": [
 				"Berglinsen müssen vorher separat gekocht werden. "
 			],
 			"finish": true
@@ -139,7 +139,7 @@
 				"Bohnen gibt es in Dosen/Gläsern verzehrfertig. ",
 				"Bohnen kommen fast immer aus China :("
 			],
-			"CookingTips": [
+			"PreparationSteps": [
 				"Rohe Bohnen sollten vorher separat gekocht werden. "
 			],
 			"roastSecond": true
@@ -149,7 +149,7 @@
 			"HandlingTips": [
 				"Tofu wird aus Soja gemacht. Kann daher regional und in Bioqualität gekauft werden. "
 			],
-			"CookingTips": [
+			"PreparationSteps": [
 
 			],
 			"roastSecond": true
@@ -159,7 +159,7 @@
 			"HandlingTips": [
 				"Tempeh wird aus Soja (vereinzelt auch Lupinen) gemacht. Kann daher regional und in Bioqualität gekauft werden. "
 			],
-			"CookingTips": [
+			"PreparationSteps": [
 
 			],
 			"roastSecond": true

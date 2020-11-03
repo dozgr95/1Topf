@@ -5,7 +5,7 @@
 			"HandlingTips": [
 				"Knoblauch sollte nicht Luftdicht gelagert werden. Dafür trocken und dunkel. "
 			],
-			"CookingTips": [
+			"PreparationSteps": [
 
 			],
 			"roastFirst": true
@@ -13,7 +13,7 @@
 		{
 			"Name": "Chili",
 			"HandlingTips": [],
-			"CookingTips": [
+			"PreparationSteps": [
 
 			],
 			"roastFirst": true
@@ -23,7 +23,7 @@
 			"HandlingTips": [
 				"Zwiebeln sollten nicht Luftdicht gelagert werden. Dafür trocken und dunkel. "
 			],
-			"CookingTips": [
+			"PreparationSteps": [
 
 			],
 			"roastFirst": true
@@ -31,7 +31,7 @@
 		{
 			"Name": "Leinsamen(schrot)",
 			"HandlingTips": [],
-			"CookingTips": [
+			"PreparationSteps": [
 
 			],
 			"finish": true
@@ -39,7 +39,7 @@
 		{
 			"Name": "Hanfsamen",
 			"HandlingTips": [],
-			"CookingTips": [
+			"PreparationSteps": [
 
 			],
 			"finish": true
@@ -47,7 +47,7 @@
 		{
 			"Name": "Sesam",
 			"HandlingTips": [],
-			"CookingTips": [
+			"PreparationSteps": [
 
 			],
 			"finish": true
@@ -55,7 +55,7 @@
 		{
 			"Name": "Kürbiskerne",
 			"HandlingTips": [],
-			"CookingTips": [
+			"PreparationSteps": [
 
 			],
 			"finish": true
@@ -63,7 +63,7 @@
 		{
 			"Name": "Apfelessig",
 			"HandlingTips": [],
-			"CookingTips": [
+			"PreparationSteps": [
 
 			],
 			"sauce": true
@@ -71,7 +71,7 @@
 		{
 			"Name": "Weiss-/Rotwein (-Essig)",
 			"HandlingTips": [],
-			"CookingTips": [
+			"PreparationSteps": [
 
 			],
 			"sauce": true
@@ -79,7 +79,7 @@
 		{
 			"Name": "mediterane Kräuter",
 			"HandlingTips": [],
-			"CookingTips": [
+			"PreparationSteps": [
 
 			],
 			"sauce": true
@@ -87,7 +87,7 @@
 		{
 			"Name": "orientalische Kräuter",
 			"HandlingTips": [],
-			"CookingTips": [
+			"PreparationSteps": [
 
 			],
 			"sauce": true
@@ -95,7 +95,7 @@
 		{
 			"Name": "Curry",
 			"HandlingTips": [],
-			"CookingTips": [
+			"PreparationSteps": [
 
 			],
 			"sauce": true
@@ -103,7 +103,7 @@
 		{
 			"Name": "Zitronensaft",
 			"HandlingTips": [],
-			"CookingTips": [
+			"PreparationSteps": [
 
 			],
 			"finish": true
@@ -113,7 +113,7 @@
 			"HandlingTips": [
 				"Lauch sollte nicht Luftdicht gelagert werden. Dafür trocken und dunkel. "
 			],
-			"CookingTips": [
+			"PreparationSteps": [
 
 			],
 			"roastFirst": true
@@ -121,7 +121,7 @@
 		{
 			"Name": "Ingwer",
 			"HandlingTips": [],
-			"CookingTips": [
+			"PreparationSteps": [
 
 			],
 			"roastFirst": true
@@ -129,7 +129,7 @@
 		{
 			"Name": "Kurkuma",
 			"HandlingTips": [],
-			"CookingTips": [
+			"PreparationSteps": [
 
 			],
 			"roastFirst": true
@@ -137,15 +137,13 @@
 		{
 			"Name": "Schalotte",
 			"HandlingTips": [],
-			"CookingTips": [
-
-			],
+			"PreparationSteps": [],
 			"roastFirst": true
 		},
 		{
 			"Name": "Nussmus",
 			"HandlingTips": [],
-			"CookingTips": [
+			"PreparationSteps": [
 
 			],
 			"sauce": true
@@ -153,7 +151,7 @@
 		{
 			"Name": "Senf",
 			"HandlingTips": [],
-			"CookingTips": [
+			"PreparationSteps": [
 
 			],
 			"sauce": true
@@ -161,7 +159,7 @@
 		{
 			"Name": "Tomatensauce/-Püre/Pelati",
 			"HandlingTips": [],
-			"CookingTips": [
+			"PreparationSteps": [
 
 			],
 			"sauce": true
@@ -169,15 +167,13 @@
 		{
 			"Name": "Gemüsebouillon (mit Wasser)",
 			"HandlingTips": [],
-			"CookingTips": [
-
-			],
+			"PreparationSteps": [],
 			"sauce": true
 		},
 		{
 			"Name": "Miso-Paste (mit Wasser)",
 			"HandlingTips": [],
-			"CookingTips": [
+			"PreparationSteps": [
 
 			],
 			"sauce": true
@@ -185,15 +181,13 @@
 		{
 			"Name": "Pilze",
 			"HandlingTips": [],
-			"CookingTips": [
-
-			],
+			"PreparationSteps": [],
 			"roastFirst": true
 		},
 		{
 			"Name": "Hefeflocken",
 			"HandlingTips": [],
-			"CookingTips": [
+			"PreparationSteps": [
 
 			],
 			"sauce": true
@@ -201,25 +195,19 @@
 		{
 			"Name": "Pflanzlicher Milchdrink z.B. Hafer, Reis, ...",
 			"HandlingTips": [],
-			"CookingTips": [
-
-			],
+			"PreparationSteps": [],
 			"sauce": true
 		},
 		{
 			"Name": "Sojasauce/Tamari",
 			"HandlingTips": [],
-			"CookingTips": [
-
-			],
+			"PreparationSteps": [],
 			"sauce": true
 		},
 		{
 			"Name": "Mehl",
 			"HandlingTips": [],
-			"CookingTips": [
-
-			],
+			"PreparationSteps": [],
 			"sauce": true
 		}
 	]
