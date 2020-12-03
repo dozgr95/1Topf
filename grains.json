@@ -1,169 +1,168 @@
 {
 	"Grains": [
 		{
-			"Name": "Quinoa",
-			"HandlingTips": [
+			"name": "Quinoa",
+			"handlingTips": [
 				"Quinoa kann man im Unverpackt-Laden kaufen und lange halten. ",
 				"Quinoa kann regional und in Bioqualität gekauft werden.  Kommt allerdings oft aus Südamerika :("
 			],
-			"PreparationSteps": [
-				"Quinoa sollte vorher separat gegart werden. "
-			],
-			"finish": true
+			"preparationSteps": [],
+			"sauce": true,
+			"insideCookerWithWater": true
 		},
 		{
-			"Name": "Couscous",
-			"HandlingTips": [
+			"name": "Couscous",
+			"handlingTips": [
 				"Couscous kann man im Unverpackt-Laden kaufen und lange halten. "
 			],
-			"PreparationSteps": [],
-			"sauce": true
+			"preparationSteps": [],
+			"sauce": true,
+			"insideCookerWithWater": true
 		},
 		{
-			"Name": "Hirse",
-			"HandlingTips": [
+			"name": "Hirse",
+			"handlingTips": [
 				"Hirse kann man im Unverpackt-Laden kaufen und lange halten. ",
 				"Hirse gibt es auch in der Form von Flocken (müssen nicht gekocht werden). ",
 				"Hirse kann regional und in Bioqualität gekauft werden. "
 			],
-			"PreparationSteps": [],
-			"sauce": true
+			"preparationSteps": [],
+			"sauce": true,
+			"insideCookerWithWater": true
 		},
 		{
-			"Name": "Hafer",
-			"HandlingTips": [
+			"name": "Hafer",
+			"handlingTips": [
 				"Hafer kann man im Unverpackt-Laden kaufen und lange halten. ",
 				"Neben den bekannten Haferflocken (müssen nicht gekocht werden) gibt es auch unverarbeiteten Hafer",
 				"Hafer kann regional und in Bioqualität gekauft werden. "
 			],
-			"PreparationSteps": [
+			"preparationSteps": [
 				"Haferflocken nach belieben mit etwas Flüssigkeit dazugeben. Hingegen Haferkörner sollten vorher gekocht werden. "
 			],
 			"sauce": true
 		},
 		{
-			"Name": "Bulgur",
-			"HandlingTips": [
+			"name": "Bulgur",
+			"handlingTips": [
 				"Bulgur kann man im Unverpackt-Laden kaufen und lange halten. "
 			],
-			"PreparationSteps": [],
-			"finish": true
+			"preparationSteps": [],
+			"sauce": true,
+			"insideCookerWithWater": true
 		},
 		{
-			"Name": "Buchweizen",
-			"HandlingTips": [
+			"name": "Buchweizen",
+			"handlingTips": [
 				"Buchweizen kann man im Unverpackt-Laden kaufen und lange halten. ",
 				"Buchweizen kann regional und in Bioqualität gekauft werden. "
 			],
-			"PreparationSteps": [],
-			"finish": true
+			"preparationSteps": [],
+			"sauce": true,
+			"insideCookerWithWater": true
 		},
 		{
-			"Name": "Reis",
-			"HandlingTips": [
+			"name": "Reis",
+			"handlingTips": [
 				"Reis kann man im Unverpackt-Laden kaufen und lange halten. ",
 				"Gibt verschiedene Sorten Reis, z.B. aus Italien, am Besten vollkorn. "
 			],
-			"PreparationSteps": [
+			"preparationSteps": [
 				"Reis sollte vorher separat gegart werden und kann in einem Behälter im Kühlschrank aufbewahrt werden. "
 			],
-			"finish": true
+			"finish": true,
+			"preCookerSimpel": true
 		},
 		{
-			"Name": "Kartoffeln",
-			"HandlingTips": [
+			"name": "Kartoffeln",
+			"handlingTips": [
 				"Kartoffeln sollten dunkel, trocken und kühl aufbewahrt werden, d.h. nicht im Kühlschrank. ",
 				"Festkochende Kartoffeln eignen sich besser als Mehligkochende. "
 			],
-			"PreparationSteps": [
-				"Kartoffeln muss man nicht schälen und können klein geschnitten mit dem Rest in der Pfanne gegart werden. "
-			],
-			"roastSecond": true
+			"preparationSteps": [],
+			"roastSecond": true,
+			"cutIntoPieces": true,
+			"insideCookerWithWater": true
 		},
 		{
-			"Name": "Süsskartoffeln",
-			"HandlingTips": [
+			"name": "Süsskartoffeln",
+			"handlingTips": [
 				"Auf die Herkunft der Süsskartoffeln achten, kann regional gekauft werden. ",
 				"Süsskartoffeln sollten dunkel und trocken aufbewahrt werden, d.h. nicht im Kühlschrank. "
 			],
-			"PreparationSteps": [
+			"preparationSteps": [
 				"Süsskartoffeln muss man nicht schälen und können klein geschnitten mit dem Rest in der Pfanne gegart werden. "
 			],
-			"roastSecond": true
+			"roastSecond": true,
+			"cutIntoPieces": true,
+			"insideCookerWithWater": true
 		},
 		{
-			"Name": "Weizen(-Teigwaren)",
-			"HandlingTips": [
+			"name": "Weizen(-Teigwaren)",
+			"handlingTips": [
 				"Weizen(-Teigwaren) kann man im Unverpackt-Laden kaufen und lange halten. ",
 				"Die Weizen sollten unbedingt Vollkorn sein. ",
 				"Weizen kann regional und in Bioqualität gekauft werden",
 				"Teigwaren ohne Ei sind zu bevorzugen. "
 			],
-			"PreparationSteps": [
-				"Weizen(-Teigwaren) vorher separat garen. "
-			],
-			"finish": true
+			"preparationSteps": [],
+			"finish": true,
+			"preCookerSimpel": true
 		},
 		{
-			"Name": "Dinkel(-Teigwaren)",
-			"HandlingTips": [
+			"name": "Dinkel(-Teigwaren)",
+			"handlingTips": [
 				"Dinkel(-Teigwaren) kann man im Unverpackt-Laden kaufen und lange halten. ",
 				"Die Dinkel sollten unbedingt Vollkorn sein. ",
 				"Dinkel kann regional und in Bioqualität gekauft werden",
 				"Teigwaren ohne Ei sind zu bevorzugen. "
 			],
-			"PreparationSteps": [
-				"Dinkel(-Teigwaren) vorher separat garen. "
-			],
-			"finish": true
+			"preparationSteps": [],
+			"finish": true,
+			"preCookerSimpel": true
 		},
 		{
-			"Name": "Gerste",
-			"HandlingTips": [
+			"name": "Gerste",
+			"handlingTips": [
 				"Gerste kann man im Unverpackt-Laden kaufen und lange halten. ",
 				"Gerste kann regional und in Bioqualität gekauft werden"
 			],
-			"PreparationSteps": [
-				"Dinkel(-Teigwaren) vorher separat garen. "
-			],
-			"finish": true
+			"preparationSteps": [],
+			"finish": true,
+			"preCookerWithSoak": true
 		},
 		{
-			"Name": "Amaranth",
-			"HandlingTips": [
+			"name": "Amaranth",
+			"handlingTips": [
 				"Amaranth kann man im Unverpackt-Laden kaufen und lange halten. ",
 				"Amaranth gibt es auch als Pops (müssen nicht gekocht werden)",
 				"Amaranth kann in Bioqualität gekauft werden und kommt aber fast immer aus Indien. "
 			],
-			"PreparationSteps": [
-				"Amaranth vorher separat garen. "
-			],
+			"preparationSteps": [],
 			"finish": true
 		},
 		{
-			"Name": "Emmer(-Teigwaren)",
-			"HandlingTips": [
+			"name": "Emmer(-Teigwaren)",
+			"handlingTips": [
 				"Emmer kann man im Unverpackt-Laden kaufen und lange halten. ",
 				"Die Emmer sollten unbedingt Vollkorn sein. ",
 				"Teigwaren ohne Ei sind zu bevorzugen. ",
 				"Gerste kann regional und in Bioqualität gekauft werden"
 			],
-			"PreparationSteps": [
-				"Emmer(-Teigwaren) vorher separat garen. "
-			],
-			"finish": true
+			"preparationSteps": [],
+			"finish": true,
+			"preCookerSimpel": true
 		},
 		{
-			"Name": "Maisgriess",
-			"HandlingTips": [
+			"name": "Maisgriess",
+			"handlingTips": [
 				"Maisgriess kann man im Unverpackt-Laden kaufen und lange halten. ",
 				"Maisgriess gibt es in verschiedenen Abstufungen von fein bis grob. ",
 				"Maisgriess kann regional und in Bioqualität gekauft werden"
 			],
-			"PreparationSteps": [
-				"Feiner Maisgriess kann mit ein wenig Flüssigkeit mit dem Rest in der Pfanne gegart werden. "
-			],
-			"sauce": true
+			"preparationSteps": [],
+			"sauce": true,
+			"insideCookerWithWater": true
 		}
 	]
 }

@@ -1,213 +1,224 @@
 {
 	"Additionals": [
 		{
-			"Name": "Knoblauch",
-			"HandlingTips": [
+			"name": "Knoblauch",
+			"handlingTips": [
 				"Knoblauch sollte nicht Luftdicht gelagert werden. Dafür trocken und dunkel. "
 			],
-			"PreparationSteps": [
-
+			"preparationSteps": [
+				"Für den Knoblauch die Knoblauchpresse verwenden oder vor dem Schneiden zerdrücken. "
 			],
 			"roastFirst": true
 		},
 		{
-			"Name": "Chili",
-			"HandlingTips": [],
-			"PreparationSteps": [
+			"name": "Chili",
+			"handlingTips": [],
+			"preparationSteps": [
 
 			],
-			"roastFirst": true
+			"roastFirst": true,
+			"cutIntoPieces": true
 		},
 		{
-			"Name": "Zwiebel",
-			"HandlingTips": [
+			"name": "Zwiebel",
+			"handlingTips": [
 				"Zwiebeln sollten nicht Luftdicht gelagert werden. Dafür trocken und dunkel. "
 			],
-			"PreparationSteps": [
+			"preparationSteps": [
 
 			],
-			"roastFirst": true
+			"roastFirst": true,
+			"cutIntoPieces": true,
+			"pealer": true
 		},
 		{
-			"Name": "Leinsamen(schrot)",
-			"HandlingTips": [],
-			"PreparationSteps": [
-
-			],
-			"finish": true
-		},
-		{
-			"Name": "Hanfsamen",
-			"HandlingTips": [],
-			"PreparationSteps": [
+			"name": "Leinsamen(schrot)",
+			"handlingTips": [],
+			"preparationSteps": [
 
 			],
 			"finish": true
 		},
 		{
-			"Name": "Sesam",
-			"HandlingTips": [],
-			"PreparationSteps": [
+			"name": "Hanfsamen",
+			"handlingTips": [],
+			"preparationSteps": [
 
 			],
 			"finish": true
 		},
 		{
-			"Name": "Kürbiskerne",
-			"HandlingTips": [],
-			"PreparationSteps": [
+			"name": "Sesam",
+			"handlingTips": [],
+			"preparationSteps": [
 
 			],
 			"finish": true
 		},
 		{
-			"Name": "Apfelessig",
-			"HandlingTips": [],
-			"PreparationSteps": [
-
-			],
-			"sauce": true
-		},
-		{
-			"Name": "Weiss-/Rotwein (-Essig)",
-			"HandlingTips": [],
-			"PreparationSteps": [
-
-			],
-			"sauce": true
-		},
-		{
-			"Name": "mediterane Kräuter",
-			"HandlingTips": [],
-			"PreparationSteps": [
-
-			],
-			"sauce": true
-		},
-		{
-			"Name": "orientalische Kräuter",
-			"HandlingTips": [],
-			"PreparationSteps": [
-
-			],
-			"sauce": true
-		},
-		{
-			"Name": "Curry",
-			"HandlingTips": [],
-			"PreparationSteps": [
-
-			],
-			"sauce": true
-		},
-		{
-			"Name": "Zitronensaft",
-			"HandlingTips": [],
-			"PreparationSteps": [
+			"name": "Kürbiskerne",
+			"handlingTips": [],
+			"preparationSteps": [
 
 			],
 			"finish": true
 		},
 		{
-			"Name": "Lauch",
-			"HandlingTips": [
+			"name": "Apfelessig",
+			"handlingTips": [],
+			"preparationSteps": [
+
+			],
+			"sauce": true
+		},
+		{
+			"name": "Weiss-/Rotwein (-Essig)",
+			"handlingTips": [],
+			"preparationSteps": [
+
+			],
+			"sauce": true
+		},
+		{
+			"name": "mediterane Kräuter",
+			"handlingTips": [],
+			"preparationSteps": [
+
+			],
+			"sauce": true
+		},
+		{
+			"name": "orientalische Kräuter",
+			"handlingTips": [],
+			"preparationSteps": [
+
+			],
+			"sauce": true
+		},
+		{
+			"name": "Curry",
+			"handlingTips": [],
+			"preparationSteps": [
+
+			],
+			"sauce": true
+		},
+		{
+			"name": "Zitronensaft",
+			"handlingTips": [],
+			"preparationSteps": [
+
+			],
+			"finish": true
+		},
+		{
+			"name": "Lauch",
+			"handlingTips": [
 				"Lauch sollte nicht Luftdicht gelagert werden. Dafür trocken und dunkel. "
 			],
-			"PreparationSteps": [
+			"preparationSteps": [
 
 			],
-			"roastFirst": true
+			"roastFirst": true,
+			"cutIntoPieces": true
 		},
 		{
-			"Name": "Ingwer",
-			"HandlingTips": [],
-			"PreparationSteps": [
+			"name": "Ingwer",
+			"handlingTips": [],
+			"preparationSteps": [
 
 			],
-			"roastFirst": true
+			"roastFirst": true,
+			"cutIntoPieces": true,
+			"pealer": true
 		},	
 		{
-			"Name": "Kurkuma",
-			"HandlingTips": [],
-			"PreparationSteps": [
+			"name": "Kurkuma",
+			"handlingTips": [],
+			"preparationSteps": [
 
 			],
-			"roastFirst": true
+			"roastFirst": true,
+			"cutIntoPieces": true,
+			"pealer": true
 		},
 		{
-			"Name": "Schalotte",
-			"HandlingTips": [],
-			"PreparationSteps": [],
-			"roastFirst": true
+			"name": "Schalotte",
+			"handlingTips": [],
+			"preparationSteps": [],
+			"roastFirst": true,
+			"cutIntoPieces": true,
+			"pealer": true
 		},
 		{
-			"Name": "Nussmus",
-			"HandlingTips": [],
-			"PreparationSteps": [
-
-			],
-			"sauce": true
-		},
-		{
-			"Name": "Senf",
-			"HandlingTips": [],
-			"PreparationSteps": [
+			"name": "Nussmus",
+			"handlingTips": [],
+			"preparationSteps": [
 
 			],
 			"sauce": true
 		},
 		{
-			"Name": "Tomatensauce/-Püre/Pelati",
-			"HandlingTips": [],
-			"PreparationSteps": [
+			"name": "Senf",
+			"handlingTips": [],
+			"preparationSteps": [
 
 			],
 			"sauce": true
 		},
 		{
-			"Name": "Gemüsebouillon (mit Wasser)",
-			"HandlingTips": [],
-			"PreparationSteps": [],
-			"sauce": true
-		},
-		{
-			"Name": "Miso-Paste (mit Wasser)",
-			"HandlingTips": [],
-			"PreparationSteps": [
+			"name": "Tomatensauce/-Püre/Pelati",
+			"handlingTips": [],
+			"preparationSteps": [
 
 			],
 			"sauce": true
 		},
 		{
-			"Name": "Pilze",
-			"HandlingTips": [],
-			"PreparationSteps": [],
-			"roastFirst": true
+			"name": "Gemüsebouillon (mit Wasser)",
+			"handlingTips": [],
+			"preparationSteps": [],
+			"sauce": true
 		},
 		{
-			"Name": "Hefeflocken",
-			"HandlingTips": [],
-			"PreparationSteps": [
+			"name": "Miso-Paste (mit Wasser)",
+			"handlingTips": [],
+			"preparationSteps": [
 
 			],
 			"sauce": true
 		},
 		{
-			"Name": "Pflanzlicher Milchdrink z.B. Hafer, Reis, ...",
-			"HandlingTips": [],
-			"PreparationSteps": [],
+			"name": "Pilze",
+			"handlingTips": [],
+			"preparationSteps": [],
+			"roastFirst": true,
+			"cutIntoPieces": true
+		},
+		{
+			"name": "Hefeflocken",
+			"handlingTips": [],
+			"preparationSteps": [
+
+			],
 			"sauce": true
 		},
 		{
-			"Name": "Sojasauce/Tamari",
-			"HandlingTips": [],
-			"PreparationSteps": [],
+			"name": "Pflanzliche Milch z.B. Hafer oder Soja",
+			"handlingTips": [],
+			"preparationSteps": [],
 			"sauce": true
 		},
 		{
-			"Name": "Mehl",
-			"HandlingTips": [],
-			"PreparationSteps": [],
+			"name": "Sojasauce/Tamari",
+			"handlingTips": [],
+			"preparationSteps": [],
+			"sauce": true
+		},
+		{
+			"name": "Mehl",
+			"handlingTips": [],
+			"preparationSteps": [],
 			"sauce": true
 		}
 	]

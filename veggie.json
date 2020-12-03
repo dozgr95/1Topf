@@ -1,338 +1,381 @@
 {
 	"Veggies": [
 		{
-			"Name": "Aubergine",
-			"MainSeason": "6,7,8,9,10",
-			"OffSeason": "",
-			"HandlingTips": [
+			"name": "Aubergine",
+			"mainSeason": "6,7,8,9,10",
+			"offSeason": "",
+			"handlingTips": [
 				"Aubergine im Kühlschrank aufbewahren. "
 			],
-			"PreparationSteps": [
+			"preparationSteps": [
 
 			],
-			"roastSecond": true
+			"roastSecond": true,
+			"cutIntoPieces": true
 		},
 		{
-			"Name": "Blumenkohl",
-			"MainSeason": "5,6,7,8,9,10,11,12",
-			"OffSeason": "Tiefgekühlt",
-			"HandlingTips": [
+			"name": "Blumenkohl",
+			"mainSeason": "5,6,7,8,9,10,11,12",
+			"offSeason": "Tiefgekühlt",
+			"handlingTips": [
 				"Blumenkohl kann auch (im Winter) tiefgekühlt gekauft werden",
 				"Frischer Blumenkohl im Kühlschrank aufbewahren. "
 			],
-			"PreparationSteps": [
+			"preparationSteps": [
 
 			],
-			"roastSecond": true
+			"roastSecond": true,
+			"cutIntoPieces": true,
+			"dontOverCook": true
 		},
 		{
-			"Name": "Broccoli",
-			"MainSeason": "5,6,7,8,9,10,11",
-			"OffSeason": "Tiefgekühlt",
-			"HandlingTips": [
+			"name": "Broccoli",
+			"mainSeason": "5,6,7,8,9,10,11",
+			"offSeason": "Tiefgekühlt",
+			"handlingTips": [
 				"Broccoli kann auch (im Winter) tiefgekühlt gekauft werden",
 				"Frischer Broccoli im Kühlschrank aufbewahren. "
 			],
-			"PreparationSteps": [
+			"preparationSteps": [
 
 			],
-			"roastSecond": true
+			"roastSecond": true,
+			"cutIntoPieces": true,
+			"dontOverCook": true
 		},
 		{
-			"Name": "Chicorée",
-			"MainSeason": "1,2,3,4,5,6,7,8,9,10,11,12",
-			"OffSeason": "",
-			"HandlingTips": [
+			"name": "Chicorée",
+			"mainSeason": "1,2,3,4,5,6,7,8,9,10,11,12",
+			"offSeason": "",
+			"handlingTips": [
 				"Chicorée im Kühlschrank aufbewahren. "
 			],
-			"PreparationSteps": [
+			"preparationSteps": [
 
 			],
-			"roastFirst": true
+			"roastFirst": true,
+			"cutIntoPieces": true,
+			"dontOverCook": true
 		},
 		{
-			"Name": "Chinakohl",
-			"MainSeason": "1,2,3,5,6,7,8,9,10,11,12",
-			"OffSeason": "",
-			"HandlingTips": [
+			"name": "Chinakohl",
+			"mainSeason": "1,2,3,5,6,7,8,9,10,11,12",
+			"offSeason": "",
+			"handlingTips": [
 				"Chinakohl im Kühlschrank aufbewahren. "
 			],
-			"PreparationSteps": [
+			"preparationSteps": [
 
 			],
-			"roastFirst": true
+			"roastFirst": true,
+			"cutIntoPieces": true,
+			"dontOverCook": true
 		},
 		{
-			"Name": "Fenchel",
-			"MainSeason": "5,6,7,8,9,10,11",
-			"OffSeason": "",
-			"HandlingTips": [
+			"name": "Fenchel",
+			"mainSeason": "5,6,7,8,9,10,11",
+			"offSeason": "",
+			"handlingTips": [
 				"Fenchel im Kühlschrank aufbewahren. "
 			],
-			"PreparationSteps": [
+			"preparationSteps": [
 
 			],
-			"roastFirst": true
+			"roastFirst": true,
+			"cutIntoPieces": true,
+			"dontOverCook": true
 		},
 		{
-			"Name": "Gurke",
-			"MainSeason": "4,5,6,7,8,9,10",
-			"OffSeason": "",
-			"HandlingTips": [
+			"name": "Gurke",
+			"mainSeason": "4,5,6,7,8,9,10",
+			"offSeason": "",
+			"handlingTips": [
 				"Frische Gurken NICHT im Kühlschrank aufbewahren! ",
 				"Gurken gibt es auch in Gläsern eingelegt. "
 			],
-			"PreparationSteps": [
+			"preparationSteps": [
 
 			],
-			"finish": true
+			"finish": true,
+			"cutIntoPieces": true,
+			"dontOverCook": true
 		},
 		{
-			"Name": "Karotte",
-			"MainSeason": "1,2,3,4,5,6,7,8,9,10,11,12",
-			"OffSeason": "",
-			"HandlingTips": [
+			"name": "Karotte",
+			"mainSeason": "1,2,3,4,5,6,7,8,9,10,11,12",
+			"offSeason": "",
+			"handlingTips": [
 				"Karotten werden auch Rüebli oder Möhren genannt und gibt es in verschiedenen Farben. ",
 				"Karotten im Kühlschrank aufbewahren, aber vorher das Grün wegnehmen. "
 			],
-			"PreparationSteps": [
+			"preparationSteps": [
 
 			],
-			"roastSecond": true
+			"roastSecond": true,
+			"cutIntoPieces": true,
+			"dontOverCook": true
 		},
 		{
-			"Name": "Knollensellerie",
-			"MainSeason": "1,2,3,4,5,6,7,8,9,10,11,12",
-			"OffSeason": "",
-			"HandlingTips": [
+			"name": "Knollensellerie",
+			"mainSeason": "1,2,3,4,5,6,7,8,9,10,11,12",
+			"offSeason": "",
+			"handlingTips": [
 				"Knollensellerie im Kühlschrank aufbewahren. "
 			],
-			"PreparationSteps": [
+			"preparationSteps": [
 
 			],
-			"roastSecond": true
+			"roastSecond": true,
+			"cutIntoPieces": true,
+			"pealer": true,
+			"dontOverCook": true
 		},
 		{
-			"Name": "Kohlrabi",
-			"MainSeason": "3,4,5,6,7,8,9,10,11",
-			"OffSeason": "",
-			"HandlingTips": [
+			"name": "Kohlrabi",
+			"mainSeason": "3,4,5,6,7,8,9,10,11",
+			"offSeason": "",
+			"handlingTips": [
 				"Kohlrabi im Kühlschrank aufbewahren. "
 			],
-			"PreparationSteps": [
+			"preparationSteps": [
 
 			],
-			"roastSecond": true
+			"roastSecond": true,
+			"cutIntoPieces": true,
+			"pealer": true,
+			"dontOverCook": true
 		},
 		{
-			"Name": "Kürbis",
-			"MainSeason": "1,2,8,9,10,11,12",
-			"OffSeason": "",
-			"HandlingTips": [
+			"name": "Kürbis",
+			"mainSeason": "1,2,8,9,10,11,12",
+			"offSeason": "",
+			"handlingTips": [
 				"Es gibt verschiedene Sorten Kürbis", 
 				"Kürbis wird häufig angeschnitten verkauft und sollte dann im Kühlschrank aufbewahrt werden. ",
 				"Ein reifer Kürbis erkennt man durch den Klopftest (sollte sich hohl anhören) oder am trockenen Stiel", 
 				"Ein nicht reifer Kürbis kann an einem warmen Platz nachreifen. "
 			],
-			"PreparationSteps": [
+			"preparationSteps": [
 
 			],
-			"roastSecond": true
+			"roastSecond": true,
+			"cutIntoPieces": true,
+			"pealer": true
 		},
 		{
-			"Name": "Pastinake",
-			"MainSeason": "1,2,3,7,8,9,10,11,12",
-			"OffSeason": "",
-			"HandlingTips": [
+			"name": "Pastinake",
+			"mainSeason": "1,2,3,7,8,9,10,11,12",
+			"offSeason": "",
+			"handlingTips": [
 				"Pastinaken im Kühlschrank aufbewahren (ohne das Grün). "
 			],
-			"PreparationSteps": [
+			"preparationSteps": [
 
 			],
-			"roastSecond": true
+			"roastSecond": true,
+			"cutIntoPieces": true,
+			"dontOverCook": true
 		},
 		{
-			"Name": "Peperoni",
-			"MainSeason": "6,7,8,9,10",
-			"OffSeason": "",
-			"HandlingTips": [
+			"name": "Peperoni",
+			"mainSeason": "6,7,8,9,10",
+			"offSeason": "",
+			"handlingTips": [
 				"Peperoni enthält besonders viele Vitamine und je nach Farbe unterschiedlich. ",
 				"Peperoni im Kühlschrank aufbewahren. "
 			],
-			"PreparationSteps": [
+			"preparationSteps": [
 
 			],
-			"roastSecond": true
+			"roastSecond": true,
+			"cutIntoPieces": true,
+			"dontOverCook": true
 		},
 		{
-			"Name": "Radieschen",
-			"MainSeason": "1,2,3,4,5,6,7,8,9,10,11,12",
-			"OffSeason": "",
-			"HandlingTips": [
+			"name": "Radieschen",
+			"mainSeason": "1,2,3,4,5,6,7,8,9,10,11,12",
+			"offSeason": "",
+			"handlingTips": [
 				"Radieschen im Kühlschrank aufbewahren, aber vorher das Grün wegnehmen. "
 			],
-			"PreparationSteps": [
+			"preparationSteps": [
 
 			],
-			"roastSecond": true
+			"roastSecond": true,
+			"cutIntoPieces": true,
+			"dontOverCook": true
 		},
 		{
-			"Name": "Randen",
-			"MainSeason": "1,2,3,4,5,6,7,8,9,10,11,12",
-			"OffSeason": "",
-			"HandlingTips": [
+			"name": "Randen",
+			"mainSeason": "1,2,3,4,5,6,7,8,9,10,11,12",
+			"offSeason": "",
+			"handlingTips": [
 				"Wird oft schon gekocht eingekauft wegen der Oxalsäure. "
 			],
-			"PreparationSteps": [
+			"preparationSteps": [
 
 			],
-			"roastSecond": true
+			"roastSecond": true,
+			"cutIntoPieces": true,
+			"pealer": true
 		},
 		{
-			"Name": "Rettich",
-			"MainSeason": "4,5,6,7,8,9,10,11,12",
-			"OffSeason": "",
-			"HandlingTips": [
+			"name": "Rettich",
+			"mainSeason": "4,5,6,7,8,9,10,11,12",
+			"offSeason": "",
+			"handlingTips": [
 				"Rettich hat ein intensives Aroma und wenn nicht gewohnt in kleinen Mengen verwendet werden. "
 			],
-			"PreparationSteps": [
+			"preparationSteps": [
 
 			],
-			"roastFirst": true
+			"roastFirst": true,
+			"cutIntoPieces": true
 		},
 		{
-			"Name": "Rosenkohl",
-			"MainSeason": "1,2,6,7,8,9,10,11,12",
-			"OffSeason": "Tiefgekühlt",
-			"HandlingTips": [
+			"name": "Rosenkohl",
+			"mainSeason": "1,2,6,7,8,9,10,11,12",
+			"offSeason": "Tiefgekühlt",
+			"handlingTips": [
 				"Rosenkohl im Kühlschrank aufbewahren. "
 			],
-			"PreparationSteps": [
+			"preparationSteps": [
 
 			],
-			"roastSecond": true
+			"roastSecond": true,
+			"cutIntoPieces": true
 		},	
 		{
-			"Name": "Romanesco",
-			"MainSeason": "5,6,7,8,9,10",
-			"OffSeason": "",
-			"HandlingTips": [
+			"name": "Romanesco",
+			"mainSeason": "5,6,7,8,9,10",
+			"offSeason": "",
+			"handlingTips": [
 				"Romanesco im Kühlschrank aufbewahren. "
 			],
-			"PreparationSteps": [
+			"preparationSteps": [
 
 			],
-			"roastSecond": true
+			"roastSecond": true,
+			"cutIntoPieces": true,
+			"dontOverCook": true
 		},
 		{
-			"Name": "Rotkabis",
-			"MainSeason": "1,2,3,4,5,6,7,8,9,10,11,12",
-			"OffSeason": "Rotkraut",
-			"HandlingTips": [
+			"name": "Rotkabis",
+			"mainSeason": "1,2,3,4,5,6,7,8,9,10,11,12",
+			"offSeason": "Rotkraut",
+			"handlingTips": [
 				"Kabis wird auch Kohl oder Kraut genannt und kann auch bläulich sein. ",
 				"Rotkabis kann auch in der Form von Rotkraut gekauft werden. "
 			],
-			"PreparationSteps": [
+			"preparationSteps": [
 
 			],
-			"roastFirst": true
+			"roastFirst": true,
+			"cutIntoPieces": true,
+			"dontOverCook": true
 		},
 		{
-			"Name": "Spinat",
-			"MainSeason": "3,4,5,6,7,8,9,10,11",
-			"OffSeason": "Tiefgekühlt",
-			"HandlingTips": [
+			"name": "Spinat",
+			"mainSeason": "3,4,5,6,7,8,9,10,11",
+			"offSeason": "Tiefgekühlt",
+			"handlingTips": [
 				"Spinat kann frisch oder (im Winter) tiefgekühlt gekauft werden. "
 			],
-			"PreparationSteps": [
+			"preparationSteps": [
 
 			],
-			"roastSecond": true
+			"roastSecond": true,
+			"cutIntoPieces": true,
+			"dontOverCook": true
 		},
 		{
-			"Name": "Stangensellerie",
-			"MainSeason": "5,6,7,8,9,10,11,12",
-			"OffSeason": "",
-			"HandlingTips": [
+			"name": "Stangensellerie",
+			"mainSeason": "5,6,7,8,9,10,11,12",
+			"offSeason": "",
+			"handlingTips": [
 				"Stangensellerie im Kühlschrank aufbewahren. "
 			],
-			"PreparationSteps": [
+			"preparationSteps": [
 
 			],
-			"roastFirst": true
+			"roastFirst": true,
+			"cutIntoPieces": true
 		},
 		{
-			"Name": "Tomaten",
-			"MainSeason": "4,5,6,7,8,9,10,11",
-			"OffSeason": "",
-			"HandlingTips": [
+			"name": "Tomaten",
+			"mainSeason": "4,5,6,7,8,9,10,11",
+			"offSeason": "",
+			"handlingTips": [
 				"Es gibt viele verschiedene Tomatensorten. ",
 				"Im Kühlschrank verlieren Tomaten an Geschmack aber sind länger haltbar. "
 			],
-			"PreparationSteps": [
-
-			],
-			"roastSecond": true
+			"preparationSteps": [],
+			"roastSecond": true,
+			"cutIntoPieces": true,
+			"dontOverCook": true
 		},
 		{
-			"Name": "Weisskabis",
-			"MainSeason": "1,2,3,4,5,6,7,8,9,10,11,12",
-			"OffSeason": "Sauerkraut",
-			"HandlingTips": [
+			"name": "Weisskabis",
+			"mainSeason": "1,2,3,4,5,6,7,8,9,10,11,12",
+			"offSeason": "Sauerkraut",
+			"handlingTips": [
 				"Kabis wird auch Kohl oder Kraut genannt. ",
 				"Weisskabis kann auch in der Form von Sauerkraut gekauft werden. "
 			],
-			"PreparationSteps": [
-
-			],
-			"roastFirst": true
+			"preparationSteps": [],
+			"roastFirst": true,
+			"cutIntoPieces": true,
+			"dontOverCook": true
 		},
 		{
-			"Name": "Zucchetti",
-			"MainSeason": "5,6,7,8,9,10",
-			"OffSeason": "",
-			"HandlingTips": [
+			"name": "Zucchetti",
+			"mainSeason": "5,6,7,8,9,10",
+			"offSeason": "",
+			"handlingTips": [
 				"Zucchetti im Kühlschrank aufbewahren. "
 			],
-			"PreparationSteps": [
+			"preparationSteps": [
 
 			],
-			"roastSecond": true
+			"roastSecond": true,
+			"cutIntoPieces": true
 		},
 		{
-			"Name": "Zuckermais",
-			"MainSeason": "8,9,10,11",
-			"OffSeason": "Dose",
-			"HandlingTips": [
+			"name": "Zuckermais",
+			"mainSeason": "8,9,10,11",
+			"offSeason": "Dose",
+			"handlingTips": [
 				"Wenn der Mais nicht frisch verfügbar ist, kann man auch eine Dose oder ein Glas kaufen. "
 			],
-			"PreparationSteps": [
+			"preparationSteps": [
 
 			],
 			"roastSecond": true
 		},
 		{
-			"Name": "Topinambur",
-			"MainSeason": "1,2,3,11,12",
-			"OffSeason": "",
-			"HandlingTips": [
+			"name": "Topinambur",
+			"mainSeason": "1,2,3,11,12",
+			"offSeason": "",
+			"handlingTips": [
 				"Topinambur im Kühlschrank aufbewahren. ",
 				"Topinambur sollte wenn nicht gewohnt (Verdauung) in kleiner Mengen verwendet werden. "
 			],
-			"PreparationSteps": [
-				"Es kann etwas Wasser hinzugefügt werden um den Topinambur zu garen. "
-			],
-			"roastSecond": true
+			"preparationSteps": [],
+			"roastSecond": true,
+			"cutIntoPieces": true,
+			"dontOverCook": true
 		},
 		{
-			"Name": "Wirz (Wirsing)",
-			"MainSeason": "1,2,3,4,5,6,7,8,9,10,11,12",
-			"OffSeason": "",
-			"HandlingTips": [],
-			"PreparationSteps": [
+			"name": "Wirz (Wirsing)",
+			"mainSeason": "1,2,3,4,5,6,7,8,9,10,11,12",
+			"offSeason": "",
+			"handlingTips": [],
+			"preparationSteps": [
 
 			],
-			"roastFirst": true
+			"roastFirst": true,
+			"cutIntoPieces": true,
+			"dontOverCook": true
 		}
 	]
 }
