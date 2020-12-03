@@ -7,7 +7,6 @@
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
-import { Recipe } from '../store/recipeGenerator';
 import ProcessRecipe from './ProcessRecipe.vue';
 
 @Component({

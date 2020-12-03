@@ -6,43 +6,26 @@
     <button @click="generateAdvancedRecipe">
       Rezept für einen grossen Topf
     </button>
-    <br><br>
-    <div v-if="hasRecipe()">
-      <process-recipe />
+    <div>
+      <br><b v-if="foodList().length > 0">Zutatenliste:</b>
+      <span v-for="(food, i) in foodList()" :key="food+i">
+        {{food}},
+      </span><span v-if="foodList().length > 0">Rapsöl</span>
     </div>
-    <br><br>
-    <div class="shopping-button">
-      <button @click="showShoppingList = !showShoppingList">
-        Zutatenliste zum Einkaufen
-      </button>
-    </div>
+    <br>
+    <process-recipe />
+    <br>
     <div class="storage-button">
       <button @click="showHandlingTips = !showHandlingTips">
         Einkaufstipps
       </button>
     </div>
-    <div v-if="showShoppingList && hasRecipe() ">
-      <br><b>Einkaufsliste:</b><br>
-      1. Zutat: {{ getRecipe().veggies[0].Name }} <br>
-      <div v-if="getRecipe().veggies.length === 2">
-        1b. Zutat: {{ getRecipe().veggies[1].Name }}<br>
-      </div>
-      2. Zutat: {{ getRecipe().legumes[0].Name }}  <br>
-      3. Zutat: {{ getRecipe().grains[0].Name }} <br>
-      4a. Zutat: {{ getRecipe().additionals[0].Name }} <br>
-      4b. Zutat: {{ getRecipe().additionals[1].Name }} <br>
-      <div v-if="getRecipe().veggies.length === 2">
-        4c. Zutat: {{ getRecipe().additionals[2].Name }} <br>
-      </div>
-      zusätzlich ÖL, ?
-
-    </div>
     <div v-if="showHandlingTips">
       <br>
       <div>
-        <b>Ein paar Tipps für den Einkauf und die Lagerung der Zutaten:</b>
+        <b>Tipps Einkauf und Lagerung:</b>
       </div>
-      <div v-for="tip in getHandlingTips()" :key="tip">
+      <div v-for="(tip, i) in getHandlingTips()" :key="tip+i">
         - {{ tip }}<br>
       </div>
     </div>
@@ -51,7 +34,7 @@
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
-import { Recipe, Food } from '../store/recipeGenerator';
+import { Recipe, Food } from '../store/recipeInterfaces';
 import ProcessRecipe from './ProcessRecipe.vue';
 
 @Component({
@@ -60,12 +43,10 @@ import ProcessRecipe from './ProcessRecipe.vue';
   },
 })
 export default class RandomRecipe extends Vue {
-  public showShoppingList = false;
-
   public showHandlingTips = false;
 
-  public hasRecipe() {
-    return this.getRecipe().veggies.length >= 1;
+  public foodList(): string[] {
+    return this.$store.getters.foodList;
   }
 
   public generateEasyRecipe() {
@@ -80,16 +61,16 @@ export default class RandomRecipe extends Vue {
     const tips: string[] = [];
     const recipe: Recipe = this.getRecipe();
     recipe.veggies.forEach((veggie: Food) => {
-      veggie.HandlingTips.forEach((tip: string) => tips.push(tip));
+      veggie.handlingTips.forEach((tip: string) => tips.push(tip));
     });
     recipe.legumes.forEach((legume: Food) => {
-      legume.HandlingTips.forEach((tip: string) => tips.push(tip));
+      legume.handlingTips.forEach((tip: string) => tips.push(tip));
     });
     recipe.grains.forEach((grain: Food) => {
-      grain.HandlingTips.forEach((tip: string) => tips.push(tip));
+      grain.handlingTips.forEach((tip: string) => tips.push(tip));
     });
     recipe.additionals.forEach((additional: Food) => {
-      additional.HandlingTips.forEach((tip: string) => tips.push(tip));
+      additional.handlingTips.forEach((tip: string) => tips.push(tip));
     });
     return tips;
   }
