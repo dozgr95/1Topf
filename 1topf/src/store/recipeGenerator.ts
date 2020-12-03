@@ -1,18 +1,19 @@
 import {
   loadVeggies, loadAdditionals, loadGrains, loadLegumes,
 } from './jsonAccessor';
+import { Veggie, Food, Recipe } from './recipeInterfaces';
 
-const checkVeggieSeason = (veggie: Veggie): boolean => {
+export const checkVeggieSeason = (veggie: Veggie): boolean => {
   const date = new Date();
   const month: number = date.getMonth() + 1;
-  let isSeason: boolean = veggie.MainSeason.includes(month.toString());
+  let isSeason: boolean = veggie.mainSeason.includes(month.toString());
   if (!isSeason) {
-    isSeason = veggie.OffSeason !== '';
+    isSeason = veggie.offSeason !== '';
   }
   return isSeason;
 };
 
-const randomFoodSelector = (loadedList: Food[], recipeList: Food[], amount: number) => {
+export const randomFoodSelector = (loadedList: Food[], recipeList: Food[], amount: number) => {
   let counter = 0;
   while (amount > counter) {
     const randInd = Math.floor(Math.random() * loadedList.length);
@@ -47,31 +48,3 @@ export const generateNewRecipe = (veggieAmount: number, legumeAmount: number,
 
   return newRecipe;
 };
-
-export interface Recipe {
-    veggies: Veggie[];
-    legumes: Legume[];
-    grains: Grain[];
-    additionals: Additional[];
-}
-
-export interface Veggie extends Food {
-  MainSeason: string;
-  OffSeason: string;
-}
-
-export type Legume = Food
-
-export type Grain = Food
-
-export type Additional = Food
-
-export interface Food {
-  Name: string;
-  HandlingTips: string[];
-  PreparationSteps: string[];
-  roastFirst?: boolean;
-  roastSecond?: boolean;
-  sauce?: boolean;
-  finish?: boolean;
-}
