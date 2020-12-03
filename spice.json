@@ -1,5 +1,5 @@
 {
-	"Additionals": [
+	"Spices": [
 		{
 			"name": "Knoblauch",
 			"handlingTips": [
@@ -63,22 +63,7 @@
 			],
 			"finish": true
 		},
-		{
-			"name": "Apfelessig",
-			"handlingTips": [],
-			"preparationSteps": [
-
-			],
-			"sauce": true
-		},
-		{
-			"name": "Weiss-/Rotwein (-Essig)",
-			"handlingTips": [],
-			"preparationSteps": [
-
-			],
-			"sauce": true
-		},
+		
 		{
 			"name": "mediterane Kräuter",
 			"handlingTips": [],
@@ -102,14 +87,6 @@
 
 			],
 			"sauce": true
-		},
-		{
-			"name": "Zitronensaft",
-			"handlingTips": [],
-			"preparationSteps": [
-
-			],
-			"finish": true
 		},
 		{
 			"name": "Lauch",
@@ -151,74 +128,11 @@
 			"pealer": true
 		},
 		{
-			"name": "Nussmus",
-			"handlingTips": [],
-			"preparationSteps": [
-
-			],
-			"sauce": true
-		},
-		{
-			"name": "Senf",
-			"handlingTips": [],
-			"preparationSteps": [
-
-			],
-			"sauce": true
-		},
-		{
-			"name": "Tomatensauce/-Püre/Pelati",
-			"handlingTips": [],
-			"preparationSteps": [
-
-			],
-			"sauce": true
-		},
-		{
-			"name": "Gemüsebouillon (mit Wasser)",
-			"handlingTips": [],
-			"preparationSteps": [],
-			"sauce": true
-		},
-		{
-			"name": "Miso-Paste (mit Wasser)",
-			"handlingTips": [],
-			"preparationSteps": [
-
-			],
-			"sauce": true
-		},
-		{
-			"name": "Pilze",
-			"handlingTips": [],
-			"preparationSteps": [],
-			"roastFirst": true,
-			"cutIntoPieces": true
-		},
-		{
 			"name": "Hefeflocken",
 			"handlingTips": [],
 			"preparationSteps": [
 
 			],
-			"sauce": true
-		},
-		{
-			"name": "Pflanzliche Milch z.B. Hafer oder Soja",
-			"handlingTips": [],
-			"preparationSteps": [],
-			"sauce": true
-		},
-		{
-			"name": "Sojasauce/Tamari",
-			"handlingTips": [],
-			"preparationSteps": [],
-			"sauce": true
-		},
-		{
-			"name": "Mehl",
-			"handlingTips": [],
-			"preparationSteps": [],
 			"sauce": true
 		}
 	]

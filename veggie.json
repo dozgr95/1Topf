@@ -376,6 +376,15 @@
 			"roastFirst": true,
 			"cutIntoPieces": true,
 			"dontOverCook": true
+		},
+		{
+			"name": "Pilze",
+			"mainSeason": "1,2,3,4,5,6,7,8,9,10,11,12",
+			"offSeason": "",
+			"handlingTips": [],
+			"preparationSteps": [],
+			"roastFirst": true,
+			"cutIntoPieces": true
 		}
 	]
 }

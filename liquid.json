@@ -1,0 +1,102 @@
+{
+	"Liquids": [
+        {
+            "name": "Apfelessig",
+            "handlingTips": [],
+            "preparationSteps": [
+
+            ],
+            "sauce": true
+        },
+        {
+            "name": "Weisswein(-Essig)",
+            "handlingTips": [],
+            "preparationSteps": [
+
+            ],
+            "sauce": true
+		},
+		{
+            "name": "Rotwein(-Essig)/Balsamico",
+            "handlingTips": [],
+            "preparationSteps": [
+
+            ],
+            "sauce": true
+        },
+        {
+			"name": "Zitronensaft",
+			"handlingTips": [],
+			"preparationSteps": [
+
+			],
+			"finish": true
+		},
+		{
+			"name": "Tahini",
+			"handlingTips": [],
+			"preparationSteps": [
+
+			],
+			"sauce": true
+		},
+		{
+			"name": "Mandelmus",
+			"handlingTips": [],
+			"preparationSteps": [
+
+			],
+			"sauce": true
+		},
+		{
+			"name": "Erdnussmus",
+			"handlingTips": [],
+			"preparationSteps": [
+
+			],
+			"sauce": true
+		},
+		{
+			"name": "Senf",
+			"handlingTips": [],
+			"preparationSteps": [
+
+			],
+			"sauce": true
+		},
+		{
+			"name": "Tomatensauce/-Püre/Pelati",
+			"handlingTips": [],
+			"preparationSteps": [
+
+			],
+			"sauce": true
+		},
+		{
+			"name": "Gemüsebouillon (mit Wasser)",
+			"handlingTips": [],
+			"preparationSteps": [],
+			"sauce": true
+		},
+		{
+			"name": "Miso-Paste (mit Wasser)",
+			"handlingTips": [],
+			"preparationSteps": [
+
+			],
+			"sauce": true
+        },
+        {
+			"name": "Pflanzliche Milch z.B. Hafer oder Soja",
+			"handlingTips": [],
+			"preparationSteps": [],
+			"sauce": true
+		},
+		{
+			"name": "Sojasauce/Tamari",
+			"handlingTips": [],
+			"preparationSteps": [],
+			"sauce": true
+		}
+    ]
+}
