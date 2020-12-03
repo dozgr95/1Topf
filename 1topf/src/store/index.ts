@@ -1,9 +1,14 @@
 import Vue from 'vue';
 import Vuex from 'vuex';
 import { RecipeFormulator } from './cookingStepsFormulator';
+import { nameLister } from './helpers';
+import { PreparationFormulator } from './preparationStepsFormulator';
 import {
-  Additional, generateNewRecipe, Grain, Legume, Recipe, Veggie,
+  generateNewRecipe,
 } from './recipeGenerator';
+import {
+  Additional, CookingSteps, Grain, Legume, PreparationSteps, Recipe, Veggie,
+} from './recipeInterfaces';
 
 Vue.use(Vuex);
 
@@ -13,6 +18,8 @@ export interface RecipeState{
   grains: Grain[];
   additionals: Additional[];
   cookingSteps: string[];
+  preparationSteps: string[];
+  foodList: string[];
 }
 
 export default new Vuex.Store({
@@ -22,6 +29,8 @@ export default new Vuex.Store({
     grains: [],
     additionals: [],
     cookingSteps: [],
+    preparationSteps: [],
+    foodList: [],
   } as RecipeState,
   mutations: {
     setVeggies(state, veggies: Veggie[]) {
@@ -39,6 +48,12 @@ export default new Vuex.Store({
     setCookingSteps(state, steps: string[]) {
       state.cookingSteps = steps;
     },
+    setPreparationSteps(state, steps: string[]) {
+      state.preparationSteps = steps;
+    },
+    setFoodList(state, names: string[]) {
+      state.foodList = names;
+    },
   },
   actions: {
     generateEasyRecipe() {
@@ -52,7 +67,11 @@ export default new Vuex.Store({
       this.commit('setLegumes', legumes);
       this.commit('setGrains', grains);
       this.commit('setAdditionals', additionals);
+      this.commit('setFoodList', nameLister({
+        veggies, legumes, grains, additionals,
+      }));
       this.dispatch('generateCookingSteps');
+      this.dispatch('generatePreparationSteps');
     },
     generateAdvancedRecipe() {
       const {
@@ -65,11 +84,30 @@ export default new Vuex.Store({
       this.commit('setLegumes', legumes);
       this.commit('setGrains', grains);
       this.commit('setAdditionals', additionals);
+      this.commit('setFoodList', nameLister({
+        veggies, legumes, grains, additionals,
+      }));
       this.dispatch('generateCookingSteps');
+      this.dispatch('generatePreparationSteps');
     },
     generateCookingSteps() {
-      const steps: string[] = RecipeFormulator(this.getters.recipe);
-      this.commit('setCookingSteps', steps);
+      const steps: CookingSteps = RecipeFormulator(this.getters.recipe);
+      this.commit('setCookingSteps',
+        [steps.oil, steps.roastFirst, steps.roastSecond,
+          steps.sauce, steps.insideCookerWithWater, steps.dontOverCook, steps.finish]);
+    },
+    generatePreparationSteps() {
+      const steps: PreparationSteps = PreparationFormulator(this.getters.recipe);
+      const stepStrings: string[] = [];
+      steps.general.forEach((step) => {
+        stepStrings.push(step);
+      });
+      stepStrings.push(steps.preCookerWithSoak);
+      stepStrings.push(steps.preCookerSimpel);
+      stepStrings.push(steps.pealer);
+      stepStrings.push(steps.noPealer);
+      stepStrings.push(steps.cutIntoPieces);
+      this.commit('setPreparationSteps', stepStrings);
     },
   },
   getters: {
@@ -84,7 +122,14 @@ export default new Vuex.Store({
     cookingSteps(state): string[] {
       return state.cookingSteps;
     },
+    preparationSteps(state): string[] {
+      return state.preparationSteps;
+    },
+    foodList(state): string[] {
+      return state.foodList;
+    },
   },
   modules: {
+
   },
 });
