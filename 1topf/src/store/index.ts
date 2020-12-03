@@ -7,7 +7,7 @@ import {
   generateNewRecipe,
 } from './recipeGenerator';
 import {
-  Additional, CookingSteps, Grain, Legume, PreparationSteps, Recipe, Veggie,
+  Liquid, Spice, CookingSteps, Grain, Legume, PreparationSteps, Recipe, Veggie,
 } from './recipeInterfaces';
 
 Vue.use(Vuex);
@@ -16,7 +16,8 @@ export interface RecipeState{
   veggies: Veggie[];
   legumes: Legume[];
   grains: Grain[];
-  additionals: Additional[];
+  liquids: Liquid[];
+  spices: Spice[];
   cookingSteps: string[];
   preparationSteps: string[];
   foodList: string[];
@@ -27,7 +28,8 @@ export default new Vuex.Store({
     veggies: [],
     legumes: [],
     grains: [],
-    additionals: [],
+    liquids: [],
+    spices: [],
     cookingSteps: [],
     preparationSteps: [],
     foodList: [],
@@ -42,8 +44,11 @@ export default new Vuex.Store({
     setGrains(state, grains: Grain[]) {
       state.grains = grains;
     },
-    setAdditionals(state, additionals: Additional[]) {
-      state.additionals = additionals;
+    setLiquids(state, liquids: Liquid[]) {
+      state.liquids = liquids;
+    },
+    setSpices(state, spices: Spice[]) {
+      state.spices = spices;
     },
     setCookingSteps(state, steps: string[]) {
       state.cookingSteps = steps;
@@ -61,14 +66,16 @@ export default new Vuex.Store({
         veggies,
         legumes,
         grains,
-        additionals,
-      }: Recipe = generateNewRecipe(1, 1, 1, 2);
+        spices,
+        liquids,
+      }: Recipe = generateNewRecipe(1, 1, 1, 2, 1);
       this.commit('setVeggies', veggies);
       this.commit('setLegumes', legumes);
       this.commit('setGrains', grains);
-      this.commit('setAdditionals', additionals);
+      this.commit('setLiquids', liquids);
+      this.commit('setSpices', spices);
       this.commit('setFoodList', nameLister({
-        veggies, legumes, grains, additionals,
+        veggies, legumes, grains, liquids, spices,
       }));
       this.dispatch('generateCookingSteps');
       this.dispatch('generatePreparationSteps');
@@ -78,14 +85,16 @@ export default new Vuex.Store({
         veggies,
         legumes,
         grains,
-        additionals,
-      }: Recipe = generateNewRecipe(2, 1, 1, 3);
+        liquids,
+        spices,
+      }: Recipe = generateNewRecipe(2, 1, 1, 3, 1);
       this.commit('setVeggies', veggies);
       this.commit('setLegumes', legumes);
       this.commit('setGrains', grains);
-      this.commit('setAdditionals', additionals);
+      this.commit('setLiquids', liquids);
+      this.commit('setSpices', spices);
       this.commit('setFoodList', nameLister({
-        veggies, legumes, grains, additionals,
+        veggies, legumes, grains, liquids, spices,
       }));
       this.dispatch('generateCookingSteps');
       this.dispatch('generatePreparationSteps');
@@ -116,7 +125,8 @@ export default new Vuex.Store({
         veggies: state.veggies,
         legumes: state.legumes,
         grains: state.grains,
-        additionals: state.additionals,
+        liquids: state.liquids,
+        spices: state.spices,
       };
     },
     cookingSteps(state): string[] {

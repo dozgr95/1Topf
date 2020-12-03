@@ -37,9 +37,13 @@ export const nameLister = (recipe: Recipe): string[] => {
   recipe.legumes.forEach((legume) => {
     nameList.push(legume.name);
   });
-  recipe.additionals.forEach((additional) => {
-    nameList.push(additional.name);
+  recipe.liquids.forEach((liquid) => {
+    nameList.push(liquid.name);
+  });
+  recipe.spices.forEach((spice) => {
+    nameList.push(spice.name);
   });
   // nameList.push('Rapsöl'); added to HTML
+  console.log(nameList);
   return nameList;
 };

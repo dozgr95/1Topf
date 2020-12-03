@@ -6,7 +6,8 @@ export const PreparationFormulator = (recipe: Recipe): PreparationSteps => {
   concatFoodList(foods, recipe.veggies);
   concatFoodList(foods, recipe.legumes);
   concatFoodList(foods, recipe.grains);
-  concatFoodList(foods, recipe.additionals);
+  concatFoodList(foods, recipe.liquids);
+  concatFoodList(foods, recipe.spices);
   const prepartionSteps: PreparationSteps = {
     general: [],
     preCookerSimpel: '',

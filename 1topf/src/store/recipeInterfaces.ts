@@ -2,7 +2,8 @@ export interface Recipe {
   veggies: Veggie[];
   legumes: Legume[];
   grains: Grain[];
-  additionals: Additional[];
+  liquids: Liquid[];
+  spices: Spice[];
 }
 
 export interface Veggie extends Food {
@@ -14,8 +15,10 @@ export type Legume = Food;
 
 export type Grain = Food;
 
-export type Additional = Food;
-// sauber machen!
+export type Liquid = Food;
+
+export type Spice = Food;
+//sauber machen!
 
 export interface Food {
   name: string;

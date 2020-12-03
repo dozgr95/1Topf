@@ -46,7 +46,8 @@ export const RecipeFormulator = (recipe: Recipe): CookingSteps => {
   concatFoodList(foods, recipe.veggies);
   concatFoodList(foods, recipe.legumes);
   concatFoodList(foods, recipe.grains);
-  concatFoodList(foods, recipe.additionals);
+  concatFoodList(foods, recipe.liquids);
+  concatFoodList(foods, recipe.spices);
   const cookingSteps: CookingSteps = {
     oil: 'Erwärme Rapsöl in einer grossen Bratpfanne. ',
     roastFirst: fillInRoastFirst(foods),
