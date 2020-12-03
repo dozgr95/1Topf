@@ -69,8 +69,11 @@ export default class RandomRecipe extends Vue {
     recipe.grains.forEach((grain: Food) => {
       grain.handlingTips.forEach((tip: string) => tips.push(tip));
     });
-    recipe.additionals.forEach((additional: Food) => {
-      additional.handlingTips.forEach((tip: string) => tips.push(tip));
+    recipe.liquids.forEach((liquid: Food) => {
+      liquid.handlingTips.forEach((tip: string) => tips.push(tip));
+    });
+    recipe.spices.forEach((spice: Food) => {
+      spice.handlingTips.forEach((tip: string) => tips.push(tip));
     });
     return tips;
   }
