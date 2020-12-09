@@ -1,3 +1,3 @@
-Extraordinary Nutrition App Incoming :)
+Extraordinary Diet/Nutrition App Incoming :)
 
 work in progress, cheers
