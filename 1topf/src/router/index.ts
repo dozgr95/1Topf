@@ -20,6 +20,11 @@ const routes: Array<RouteConfig> = [
     name: 'creator',
     component: () => import('../views/Creator.vue'),
   },
+  {
+    path: '/best-list',
+    name: 'best-list',
+    component: () => import('../views/BestList.vue'),
+  },
 ];
 
 const router = new VueRouter({

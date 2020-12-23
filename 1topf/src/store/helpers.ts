@@ -14,7 +14,7 @@ export const stringConcatRuler = (foods: Food[]): string => {
     output = `${foods[0].name} und ${foods[1].name}`;
   } else if (foods.length > 2) {
     let counter = 0;
-    while (counter < foods.length) {
+    while (counter < foods.length - 1) {
       if (counter !== 0) {
         output = `${output}, ${foods[counter].name}`;
       } else {
@@ -22,6 +22,7 @@ export const stringConcatRuler = (foods: Food[]): string => {
       }
       counter += 1;
     }
+    output = `${output} und ${foods[counter].name}`;
   }
   return output;
 };

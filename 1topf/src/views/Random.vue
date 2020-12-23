@@ -6,6 +6,10 @@
     <button @click="generateAdvancedRecipe">
       Rezept für einen grossen Topf
     </button>
+    <p><i v-if="foodList().length > 0">
+      Übrigens: Das Rezept ist zufällig erstellt.
+       Du magst es nicht? Drück nochmal :)
+    </i></p>
     <div>
       <br><b v-if="foodList().length > 0">Zutatenliste:</b>
       <span v-for="(food, i) in foodList()" :key="food+i">

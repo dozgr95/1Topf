@@ -13,8 +13,8 @@ export const PreparationFormulator = (recipe: Recipe): PreparationSteps => {
     preCookerSimpel: '',
     preCookerWithSoak: '',
     noPealer: '',
-    pealer: 'pealer',
-    cutIntoPieces: 'cut into pieces please',
+    pealer: '',
+    cutIntoPieces: '',
   };
 
   const noPealerFoods = foods.filter((food) => food.noPealer);
@@ -33,6 +33,18 @@ export const PreparationFormulator = (recipe: Recipe): PreparationSteps => {
   if (preCookerSimpelFoods.length > 0) {
     prepartionSteps.preCookerSimpel = `${stringConcatRuler(preCookerSimpelFoods)}
      muss man vorher separat kochen. `;
+  }
+
+  const cutIntoPiecesFoods = foods.filter((food) => food.cutIntoPieces);
+  if (cutIntoPiecesFoods.length > 0) {
+    prepartionSteps.cutIntoPieces = `${stringConcatRuler(cutIntoPiecesFoods)}
+     in Stücke schneiden. `;
+  }
+
+  const pealerFoods = foods.filter((food) => food.pealer);
+  if (pealerFoods.length > 0) {
+    prepartionSteps.pealer = `${stringConcatRuler(pealerFoods)}
+     sparsam schälen. `;
   }
 
   foods.forEach((food) => {

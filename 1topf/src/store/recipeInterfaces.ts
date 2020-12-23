@@ -18,7 +18,7 @@ export type Grain = Food;
 export type Liquid = Food;
 
 export type Spice = Food;
-//sauber machen!
+// sauber machen!
 
 export interface Food {
   name: string;

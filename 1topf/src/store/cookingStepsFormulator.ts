@@ -41,6 +41,27 @@ export const fillInFinish = (foods: Food[]): string => {
   return output;
 };
 
+export const fillInInsideCooker = (foods: Food[]): string => {
+  let output = '';
+  const insideCookerList = foods.filter((food) => food.insideCookerWithWater);
+  output = stringConcatRuler(insideCookerList);
+  if (output) {
+    output = `${output} mit zusätzlich Wasser in der Pfanne garen. `;
+  }
+  return output;
+};
+
+export const fillInOverCook = (foods: Food[]): string => {
+  let output = '';
+  const overCookList = foods.filter((food) => food.dontOverCook);
+  output = stringConcatRuler(overCookList);
+  if (output) {
+    output = `Um ${output} weicher zu machen, kann Wasser hinzugegeben werden,
+     allerdings können dadurch auch Nährstoffe verloren gehen. `;
+  }
+  return output;
+};
+
 export const RecipeFormulator = (recipe: Recipe): CookingSteps => {
   const foods: Food[] = [];
   concatFoodList(foods, recipe.veggies);
@@ -53,9 +74,9 @@ export const RecipeFormulator = (recipe: Recipe): CookingSteps => {
     roastFirst: fillInRoastFirst(foods),
     roastSecond: fillInRoastSecond(foods),
     sauce: fillInSauce(foods),
-    insideCookerWithWater: 'sample inside cook',
+    insideCookerWithWater: fillInInsideCooker(foods),
     finish: fillInFinish(foods),
-    dontOverCook: 'sample overcook',
+    dontOverCook: fillInOverCook(foods),
   };
   return cookingSteps;
 };
