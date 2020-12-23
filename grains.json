@@ -31,18 +31,6 @@
 			"insideCookerWithWater": true
 		},
 		{
-			"name": "Hafer",
-			"handlingTips": [
-				"Hafer kann man im Unverpackt-Laden kaufen und lange halten. ",
-				"Neben den bekannten Haferflocken (müssen nicht gekocht werden) gibt es auch unverarbeiteten Hafer",
-				"Hafer kann regional und in Bioqualität gekauft werden. "
-			],
-			"preparationSteps": [
-				"Haferflocken nach belieben mit etwas Flüssigkeit dazugeben. Hingegen Haferkörner sollten vorher gekocht werden. "
-			],
-			"sauce": true
-		},
-		{
 			"name": "Bulgur",
 			"handlingTips": [
 				"Bulgur kann man im Unverpackt-Laden kaufen und lange halten. "

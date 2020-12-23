@@ -38,7 +38,7 @@
 			"preparationSteps": [
 
 			],
-			"sauce": true
+			"finish": true
 		},
 		{
 			"name": "Mandelmus",
@@ -46,7 +46,7 @@
 			"preparationSteps": [
 
 			],
-			"sauce": true
+			"finish": true
 		},
 		{
 			"name": "Erdnussmus",
@@ -54,7 +54,7 @@
 			"preparationSteps": [
 
 			],
-			"sauce": true
+			"finish": true
 		},
 		{
 			"name": "Senf",
