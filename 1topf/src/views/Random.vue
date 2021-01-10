@@ -27,5 +27,13 @@ export default class RandomRecipe extends Vue {
   public foodList(): string[] {
     return this.$store.getters.foodList;
   }
+
+  public generateEasyRecipe() {
+    this.$store.dispatch('generateEasyRecipe');
+  }
+
+  public generateAdvancedRecipe() {
+    this.$store.dispatch('generateAdvancedRecipe');
+  }
 }
 </script>

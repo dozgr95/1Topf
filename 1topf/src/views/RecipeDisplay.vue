@@ -43,14 +43,6 @@ export default class RecipeDisplay extends Vue {
       return this.$store.getters.foodList;
     }
 
-    public generateEasyRecipe() {
-      this.$store.dispatch('generateEasyRecipe');
-    }
-
-    public generateAdvancedRecipe() {
-      this.$store.dispatch('generateAdvancedRecipe');
-    }
-
     public getHandlingTips(): string[] {
       const tips: string[] = [];
       const recipe: Recipe = this.getRecipe();
