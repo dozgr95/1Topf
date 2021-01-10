@@ -24,6 +24,22 @@ export const randomFoodSelector = (loadedList: Food[], recipeList: Food[], amoun
   }
 };
 
+export const recipeForFoodList = (foods: string[]) => {
+  const recipe: Recipe = {
+    veggies: loadVeggies(),
+    legumes: loadLegumes(),
+    grains: loadGrains(),
+    liquids: loadLiquids(),
+    spices: loadSpices(),
+  };
+  recipe.veggies = recipe.veggies.filter((veggie) => foods.includes(veggie.name));
+  recipe.legumes = recipe.legumes.filter((legume) => foods.includes(legume.name));
+  recipe.liquids = recipe.liquids.filter((liquid) => foods.includes(liquid.name));
+  recipe.spices = recipe.spices.filter((spice) => foods.includes(spice.name));
+  recipe.grains = recipe.grains.filter((grain) => foods.includes(grain.name));
+  return recipe;
+};
+
 export const generateNewRecipe = (veggieAmount: number, legumeAmount: number,
   grainAmount: number, spiceAmount: number, liquidAmount: number) => {
   const newRecipe: Recipe = {

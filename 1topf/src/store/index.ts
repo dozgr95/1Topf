@@ -2,12 +2,15 @@ import Vue from 'vue';
 import Vuex from 'vuex';
 import { RecipeFormulator } from './cookingStepsFormulator';
 import { nameLister } from './helpers';
+import {
+  loadGrains, loadLegumes, loadLiquids, loadSpices, loadVeggies,
+} from './jsonAccessor';
 import { PreparationFormulator } from './preparationStepsFormulator';
 import {
-  generateNewRecipe,
+  generateNewRecipe, recipeForFoodList,
 } from './recipeGenerator';
 import {
-  Liquid, Spice, CookingSteps, Grain, Legume, PreparationSteps, Recipe, Veggie,
+  Liquid, Spice, CookingSteps, Grain, Legume, PreparationSteps, Recipe, Veggie, Food,
 } from './recipeInterfaces';
 
 Vue.use(Vuex);
@@ -99,6 +102,27 @@ export default new Vuex.Store({
       this.dispatch('generateCookingSteps');
       this.dispatch('generatePreparationSteps');
     },
+    createRecipe(_, foods: string[]) {
+      const {
+        veggies,
+        legumes,
+        grains,
+        spices,
+        liquids,
+      }: Recipe = recipeForFoodList(foods);
+
+      this.commit('setVeggies', veggies);
+      this.commit('setLegumes', legumes);
+      this.commit('setGrains', grains);
+      this.commit('setLiquids', liquids);
+      this.commit('setSpices', spices);
+      this.commit('setFoodList', nameLister({
+        veggies, legumes, grains, liquids, spices,
+      }));
+
+      this.dispatch('generateCookingSteps');
+      this.dispatch('generatePreparationSteps');
+    },
     generateCookingSteps() {
       const steps: CookingSteps = RecipeFormulator(this.getters.recipe);
       this.commit('setCookingSteps',
@@ -137,6 +161,14 @@ export default new Vuex.Store({
     },
     foodList(state): string[] {
       return state.foodList;
+    },
+    ingredients(): string[] {
+      let ingredients: Food[] = loadGrains();
+      ingredients = ingredients.concat(loadLegumes());
+      ingredients = ingredients.concat(loadLiquids());
+      ingredients = ingredients.concat(loadSpices());
+      ingredients = ingredients.concat(loadVeggies());
+      return ingredients.map((ingredient) => ingredient.name);
     },
   },
   modules: {
