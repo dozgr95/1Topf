@@ -45,6 +45,5 @@ export const nameLister = (recipe: Recipe): string[] => {
     nameList.push(spice.name);
   });
   // nameList.push('Rapsöl'); added to HTML
-  console.log(nameList);
   return nameList;
 };
