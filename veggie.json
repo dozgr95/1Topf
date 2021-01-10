@@ -310,7 +310,7 @@
 				"Im Kühlschrank verlieren Tomaten an Geschmack aber sind länger haltbar. "
 			],
 			"preparationSteps": [],
-			"roastSecond": true,
+			"sauce": true,
 			"cutIntoPieces": true,
 			"dontOverCook": true
 		},
