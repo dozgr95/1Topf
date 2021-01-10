@@ -3,8 +3,9 @@ import { CookingSteps, Food, Recipe } from './recipeInterfaces';
 
 export const fillInRoastFirst = (foods: Food[]): string => {
   let output = '';
-  const RoastFirstList = foods.filter((food) => food.roastFirst);
-  output = stringConcatRuler(RoastFirstList);
+  const roastFirstList = foods.filter((food) => food.roastFirst);
+  const nameList: string[] = roastFirstList.map((food) => food.name);
+  output = stringConcatRuler(nameList);
   if (output) {
     output = `Brate zuerst ${output}`;
   }
@@ -13,8 +14,9 @@ export const fillInRoastFirst = (foods: Food[]): string => {
 
 export const fillInRoastSecond = (foods: Food[]): string => {
   let output = '';
-  const RoastSecondList = foods.filter((food) => food.roastSecond);
-  output = stringConcatRuler(RoastSecondList);
+  const roastSecondList = foods.filter((food) => food.roastSecond);
+  const nameList: string[] = roastSecondList.map((food) => food.name);
+  output = stringConcatRuler(nameList);
   if (output) {
     output = `Anschliessend brate ${output}`;
   }
@@ -24,7 +26,8 @@ export const fillInRoastSecond = (foods: Food[]): string => {
 export const fillInSauce = (foods: Food[]): string => {
   let output = '';
   const sauceList = foods.filter((food) => food.sauce);
-  output = stringConcatRuler(sauceList);
+  const nameList: string[] = sauceList.map((food) => food.name);
+  output = stringConcatRuler(nameList);
   if (output) {
     output = `Nun füge ${output} hinzu`;
   }
@@ -34,7 +37,8 @@ export const fillInSauce = (foods: Food[]): string => {
 export const fillInFinish = (foods: Food[]): string => {
   let output = '';
   const finishList = foods.filter((food) => food.finish);
-  output = stringConcatRuler(finishList);
+  const nameList: string[] = finishList.map((food) => food.name);
+  output = stringConcatRuler(nameList);
   if (output) {
     output = `Als letzes kommen noch ${output} in die Pfanne. `;
   }
@@ -44,7 +48,8 @@ export const fillInFinish = (foods: Food[]): string => {
 export const fillInInsideCooker = (foods: Food[]): string => {
   let output = '';
   const insideCookerList = foods.filter((food) => food.insideCookerWithWater);
-  output = stringConcatRuler(insideCookerList);
+  const nameList: string[] = insideCookerList.map((food) => food.name);
+  output = stringConcatRuler(nameList);
   if (output) {
     output = `${output} mit zusätzlich Wasser in der Pfanne garen. `;
   }
@@ -54,7 +59,8 @@ export const fillInInsideCooker = (foods: Food[]): string => {
 export const fillInOverCook = (foods: Food[]): string => {
   let output = '';
   const overCookList = foods.filter((food) => food.dontOverCook);
-  output = stringConcatRuler(overCookList);
+  const nameList: string[] = overCookList.map((food) => food.name);
+  output = stringConcatRuler(nameList);
   if (output) {
     output = `Um ${output} weicher zu machen, kann Wasser hinzugegeben werden,
      allerdings können dadurch auch Nährstoffe verloren gehen. `;

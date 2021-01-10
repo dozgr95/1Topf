@@ -1,7 +1,7 @@
 import Vue from 'vue';
 import Vuex from 'vuex';
 import { RecipeFormulator } from './cookingStepsFormulator';
-import { nameLister } from './helpers';
+import { nameLister, stringConcatRuler } from './helpers';
 import {
   loadGrains, loadLegumes, loadLiquids, loadSpices, loadVeggies,
 } from './jsonAccessor';
@@ -169,6 +169,30 @@ export default new Vuex.Store({
       ingredients = ingredients.concat(loadSpices());
       ingredients = ingredients.concat(loadVeggies());
       return ingredients.map((ingredient) => ingredient.name);
+    },
+    completnessMessage(state): string {
+      if (state.foodList.length === 0) {
+        return '';
+      }
+      const missing: string[] = [];
+      if (state.grains.length <= 0) {
+        missing.push('Getreide');
+      }
+      if (state.veggies.length <= 0) {
+        missing.push('Gemüse');
+      }
+      if (state.legumes.length <= 0) {
+        missing.push('Hülsefrucht');
+      }
+      if (missing.length === 0) {
+        return '';
+      }
+      let message = 'Dein Rezept klingt toll! Es ist allerdings nicht ganz vollwertig. Versuche noch ';
+      message += stringConcatRuler(missing);
+      message += ' hinzuzufügen. ';
+      return message;
+
+      /* there could be a message for season veggies check */
     },
   },
   modules: {

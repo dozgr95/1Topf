@@ -6,23 +6,23 @@ export const concatFoodList = (foods: Food[], recipePart: Food[]) => {
   });
 };
 
-export const stringConcatRuler = (foods: Food[]): string => {
+export const stringConcatRuler = (foods: string[]): string => {
   let output = '';
   if (foods.length === 1) {
-    output = foods[0].name;
+    [output] = foods;
   } else if (foods.length === 2) {
-    output = `${foods[0].name} und ${foods[1].name}`;
+    output = `${foods[0]} und ${foods[1]}`;
   } else if (foods.length > 2) {
     let counter = 0;
     while (counter < foods.length - 1) {
       if (counter !== 0) {
-        output = `${output}, ${foods[counter].name}`;
+        output = `${output}, ${foods[counter]}`;
       } else {
-        output = foods[counter].name;
+        output = foods[counter];
       }
       counter += 1;
     }
-    output = `${output} und ${foods[counter].name}`;
+    output = `${output} und ${foods[counter]}`;
   }
   return output;
 };
