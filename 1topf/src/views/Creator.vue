@@ -1,34 +1,31 @@
 <template>
-  <v-card>
-    <v-container fluid>
-      <v-row
-        align="center"
-      >
-        <v-col cols="12">
-          <v-autocomplete
-            v-model="recipe"
-            :items="ingredients"
-            outlined
-            label="Zutat"
-            multiple
-          ></v-autocomplete>
-          <v-btn @click="createRecipe">
-            Bestätigen
-          </v-btn>
-        </v-col>
-      </v-row>
-    </v-container>
+  <div>
+    <v-autocomplete
+      v-model="recipe"
+      :items="ingredients"
+      outlined
+      label="Zutat"
+      multiple
+    ></v-autocomplete>
+    <v-btn @click="createRecipe">
+      Bestätigen
+    </v-btn>
+    <div class="completness" v-if="recipeCompletnesMessage()">
+      {{ recipeCompletnesMessage() }}
+    </div>
     <RecipeDisplay />
-  </v-card>
+  </div>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
+import App from '../App.vue';
 import RecipeDisplay from './RecipeDisplay.vue';
 
 @Component({
   components: {
     RecipeDisplay,
+    App,
   },
 })
 export default class RecipeCreator extends Vue {
@@ -38,6 +35,10 @@ export default class RecipeCreator extends Vue {
 
   public async createRecipe() {
     await this.$store.dispatch('createRecipe', this.recipe);
+  }
+
+  public recipeCompletnesMessage() {
+    return this.$store.getters.completnessMessage;
   }
 
   public ingredients = [];
