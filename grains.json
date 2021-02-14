@@ -91,7 +91,7 @@
 			"insideCookerWithWater": true
 		},
 		{
-			"name": "Weizen(-Teigwaren)",
+			"name": "Weizen-Teigwaren",
 			"handlingTips": [
 				"Weizen(-Teigwaren) kann man im Unverpackt-Laden kaufen und lange halten. ",
 				"Die Weizen sollten unbedingt Vollkorn sein. ",
@@ -103,7 +103,7 @@
 			"preCookerSimpel": true
 		},
 		{
-			"name": "Dinkel(-Teigwaren)",
+			"name": "Dinkel-Teigwaren",
 			"handlingTips": [
 				"Dinkel(-Teigwaren) kann man im Unverpackt-Laden kaufen und lange halten. ",
 				"Die Dinkel sollten unbedingt Vollkorn sein. ",
