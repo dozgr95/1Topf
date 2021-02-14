@@ -62,8 +62,7 @@ export const fillInOverCook = (foods: Food[]): string => {
   const nameList: string[] = overCookList.map((food) => food.name);
   output = stringConcatRuler(nameList);
   if (output) {
-    output = `Um ${output} weicher zu machen, kann Wasser hinzugegeben werden,
-     allerdings können dadurch auch Nährstoffe verloren gehen. `;
+    output = `Um ${output} weicher zu machen, kann Wasser hinzugegeben werden. `;
   }
   return output;
 };

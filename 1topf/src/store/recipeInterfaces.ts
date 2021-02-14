@@ -33,6 +33,7 @@ export interface Food {
   cutIntoPieces?: boolean;
   preCookerSimpel?: boolean;
   preCookerWithSoak?: boolean;
+  onlySoak?: boolean;
   dontOverCook?: boolean;
   insideCookerWithWater?: boolean;
 }
@@ -44,6 +45,7 @@ export interface PreparationSteps {
   noPealer: string; // carrots, zucchetti
   pealer: string; // onions, pumpkins
   cutIntoPieces: string; // veggies, etc
+  onlySoak: string; // lentils
 }
 
 export interface CookingSteps {

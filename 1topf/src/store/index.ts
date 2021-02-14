@@ -71,7 +71,7 @@ export default new Vuex.Store({
         grains,
         spices,
         liquids,
-      }: Recipe = generateNewRecipe(1, 1, 1, 2, 1);
+      }: Recipe = generateNewRecipe(1, 1, 1, 1, 1);
       this.commit('setVeggies', veggies);
       this.commit('setLegumes', legumes);
       this.commit('setGrains', grains);
@@ -90,7 +90,7 @@ export default new Vuex.Store({
         grains,
         liquids,
         spices,
-      }: Recipe = generateNewRecipe(2, 1, 1, 3, 1);
+      }: Recipe = generateNewRecipe(2, 1, 1, 2, 1);
       this.commit('setVeggies', veggies);
       this.commit('setLegumes', legumes);
       this.commit('setGrains', grains);
@@ -135,6 +135,7 @@ export default new Vuex.Store({
       steps.general.forEach((step) => {
         stepStrings.push(step);
       });
+      stepStrings.push(steps.onlySoak);
       stepStrings.push(steps.preCookerWithSoak);
       stepStrings.push(steps.preCookerSimpel);
       stepStrings.push(steps.pealer);
