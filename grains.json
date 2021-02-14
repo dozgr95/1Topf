@@ -40,6 +40,13 @@
 			"insideCookerWithWater": true
 		},
 		{
+			"name": "Ebly",
+			"handlingTips": [],
+			"preparationSteps": [],
+			"sauce": true,
+			"insideCookerWithWater": true
+		},
+		{
 			"name": "Buchweizen",
 			"handlingTips": [
 				"Buchweizen kann man im Unverpackt-Laden kaufen und lange halten. ",
@@ -78,7 +85,6 @@
 				"Süsskartoffeln sollten dunkel und trocken aufbewahrt werden, d.h. nicht im Kühlschrank. "
 			],
 			"preparationSteps": [
-				"Süsskartoffeln muss man nicht schälen und können mit dem Rest in der Pfanne gegart werden. "
 			],
 			"roastSecond": true,
 			"cutIntoPieces": true,
@@ -116,36 +122,14 @@
 			],
 			"preparationSteps": [],
 			"finish": true,
-			"preCookerWithSoak": true
+			"onlySoak": true
 		},
 		{
-			"name": "Amaranth",
+			"name": "Maisgriess grob (Bramata)",
 			"handlingTips": [
-				"Amaranth kann man im Unverpackt-Laden kaufen und lange halten. ",
-				"Amaranth gibt es auch als Pops (müssen nicht gekocht werden)",
-				"Amaranth kann in Bioqualität gekauft werden und kommt aber fast immer aus Indien. "
-			],
-			"preparationSteps": [],
-			"finish": true
-		},
-		{
-			"name": "Emmer(-Teigwaren)",
-			"handlingTips": [
-				"Emmer kann man im Unverpackt-Laden kaufen und lange halten. ",
-				"Die Emmer sollten unbedingt Vollkorn sein. ",
-				"Teigwaren ohne Ei sind zu bevorzugen. ",
-				"Gerste kann regional und in Bioqualität gekauft werden"
-			],
-			"preparationSteps": [],
-			"finish": true,
-			"preCookerSimpel": true
-		},
-		{
-			"name": "Maisgriess",
-			"handlingTips": [
-				"Maisgriess kann man im Unverpackt-Laden kaufen und lange halten. ",
-				"Maisgriess gibt es in verschiedenen Abstufungen von fein bis grob. ",
-				"Maisgriess kann regional und in Bioqualität gekauft werden"
+				"Bramata kann man im Unverpackt-Laden kaufen und lange halten. ",
+				"Bramata ist wie grober Maisgriess und eignet sich besser für Eintöpfe. ",
+				"Bramata kann regional und in Bioqualität gekauft werden"
 			],
 			"preparationSteps": [],
 			"sauce": true,

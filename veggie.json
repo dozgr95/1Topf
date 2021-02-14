@@ -8,7 +8,7 @@
 				"Aubergine im Kühlschrank aufbewahren. "
 			],
 			"preparationSteps": [
-
+				"Aubergine sollten gut durch gekocht sein. "
 			],
 			"roastSecond": true,
 			"cutIntoPieces": true
@@ -44,20 +44,6 @@
 			"dontOverCook": true
 		},
 		{
-			"name": "Chicorée",
-			"mainSeason": "1,2,3,4,5,6,7,8,9,10,11,12",
-			"offSeason": "",
-			"handlingTips": [
-				"Chicorée im Kühlschrank aufbewahren. "
-			],
-			"preparationSteps": [
-
-			],
-			"roastFirst": true,
-			"cutIntoPieces": true,
-			"dontOverCook": true
-		},
-		{
 			"name": "Chinakohl",
 			"mainSeason": "1,2,3,5,6,7,8,9,10,11,12",
 			"offSeason": "",
@@ -68,8 +54,7 @@
 
 			],
 			"roastFirst": true,
-			"cutIntoPieces": true,
-			"dontOverCook": true
+			"cutIntoPieces": true
 		},
 		{
 			"name": "Fenchel",
@@ -82,21 +67,6 @@
 
 			],
 			"roastFirst": true,
-			"cutIntoPieces": true,
-			"dontOverCook": true
-		},
-		{
-			"name": "Gurke",
-			"mainSeason": "4,5,6,7,8,9,10",
-			"offSeason": "",
-			"handlingTips": [
-				"Frische Gurken NICHT im Kühlschrank aufbewahren! ",
-				"Gurken gibt es auch in Gläsern eingelegt. "
-			],
-			"preparationSteps": [
-
-			],
-			"finish": true,
 			"cutIntoPieces": true,
 			"dontOverCook": true
 		},
@@ -177,6 +147,19 @@
 			"dontOverCook": true
 		},
 		{
+			"name": "Peterliwurzel",
+			"mainSeason": "1,2,10,11,12",
+			"offSeason": "",
+			"handlingTips": [
+			],
+			"preparationSteps": [
+
+			],
+			"roastSecond": true,
+			"cutIntoPieces": true,
+			"dontOverCook": true
+		},
+		{
 			"name": "Peperoni",
 			"mainSeason": "6,7,8,9,10",
 			"offSeason": "",
@@ -188,8 +171,7 @@
 
 			],
 			"roastSecond": true,
-			"cutIntoPieces": true,
-			"dontOverCook": true
+			"cutIntoPieces": true
 		},
 		{
 			"name": "Radieschen",
@@ -210,7 +192,7 @@
 			"mainSeason": "1,2,3,4,5,6,7,8,9,10,11,12",
 			"offSeason": "",
 			"handlingTips": [
-				"Wird oft schon gekocht eingekauft wegen der Oxalsäure. "
+				"Wird oft schon gekocht eingekauft (sonst vorher kochen empfehlenswert). "
 			],
 			"preparationSteps": [
 
@@ -218,19 +200,6 @@
 			"roastSecond": true,
 			"cutIntoPieces": true,
 			"pealer": true
-		},
-		{
-			"name": "Rettich",
-			"mainSeason": "4,5,6,7,8,9,10,11,12",
-			"offSeason": "",
-			"handlingTips": [
-				"Rettich hat ein intensives Aroma und wenn nicht gewohnt in kleinen Mengen verwendet werden. "
-			],
-			"preparationSteps": [
-
-			],
-			"roastFirst": true,
-			"cutIntoPieces": true
 		},
 		{
 			"name": "Rosenkohl",
@@ -285,8 +254,7 @@
 
 			],
 			"roastSecond": true,
-			"cutIntoPieces": true,
-			"dontOverCook": true
+			"cutIntoPieces": true
 		},
 		{
 			"name": "Stangensellerie",
@@ -311,8 +279,7 @@
 			],
 			"preparationSteps": [],
 			"sauce": true,
-			"cutIntoPieces": true,
-			"dontOverCook": true
+			"cutIntoPieces": true
 		},
 		{
 			"name": "Weisskabis",
@@ -353,19 +320,6 @@
 			"roastSecond": true
 		},
 		{
-			"name": "Topinambur",
-			"mainSeason": "1,2,3,11,12",
-			"offSeason": "",
-			"handlingTips": [
-				"Topinambur im Kühlschrank aufbewahren. ",
-				"Topinambur sollte wenn nicht gewohnt (Verdauung) in kleiner Mengen verwendet werden. "
-			],
-			"preparationSteps": [],
-			"roastSecond": true,
-			"cutIntoPieces": true,
-			"dontOverCook": true
-		},
-		{
 			"name": "Wirz (Wirsing)",
 			"mainSeason": "1,2,3,4,5,6,7,8,9,10,11,12",
 			"offSeason": "",
@@ -378,13 +332,36 @@
 			"dontOverCook": true
 		},
 		{
-			"name": "Pilze",
+			"name": "Pilz",
 			"mainSeason": "1,2,3,4,5,6,7,8,9,10,11,12",
 			"offSeason": "",
-			"handlingTips": [],
+			"handlingTips": [
+				"Es gibt viele Pilzsorten. Frische, getrocknete und konservierte. Günstige und teure. "
+			],
 			"preparationSteps": [],
 			"roastFirst": true,
 			"cutIntoPieces": true
+		},		
+		{
+			"name": "Kefen",
+			"mainSeason": "6,7,8,9",
+			"offSeason": "Tiefgekühlt",
+			"handlingTips": [],
+			"preparationSteps": [],
+			"roastSecond": true,
+			"insideCookerWithWater": true
+		},		
+		{
+			"name": "Grüne Bohnen", 
+			"mainSeason": "6,7,8,9,10",
+			"offSeason": "Tiefgekühlt",
+			"handlingTips": [
+			],
+			"preparationSteps": [
+				"Bei Grünen Bohnen werden normalerweise die Enden abgeschnitten. "
+			],
+			"roastSecond": true,
+			"insideCookerWithWater": true
 		}
 	]
 }

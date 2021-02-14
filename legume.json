@@ -46,25 +46,6 @@
 			"roastSecond": true
 		},
 		{
-			"name": "Kefen",
-			"handlingTips": [
-				"Die Kefensaison ist von Juni bis September, andererseits gibt es auch Tiefgekühlte zu kaufen. "
-			],
-			"preparationSteps": [],
-			"roastSecond": true
-		},
-		{
-			"name": "Stangen-Bohnen", 
-			"handlingTips": [
-				"Die Stangen-Bohnen-Saison ist von Juni bis Oktober, andererseits gibt es auch Tiefgekühlte zu kaufen. "
-			],
-			"preparationSteps": [
-				"Bei Stangen-Bohnen werden normalerweise die Enden abgeschnitten. "
-			],
-			"finish": true,
-			"preCookerSimpel": true
-		},
-		{
 			"name": "Kichererbsen",
 			"handlingTips": [
 				"Kichererbsen kann man roh im Unverpackt-Laden kaufen und lange halten. ",
@@ -93,7 +74,7 @@
 			],
 			"preparationSteps": [],
 			"finish": true,
-			"preCookerSimpel": true
+			"onlySoak": true
 		},
 		{
 			"name": "Beluga Linsen",
@@ -103,17 +84,17 @@
 			],
 			"preparationSteps": [],
 			"finish": true,
-			"preCookerSimpel": true
+			"onlySoak": true
 		},
 		{
 			"name": "Berglinsen",
 			"handlingTips": [
-				"Berglinsen kann man roh im Unverpackt-Laden kaufen und lange halten. ",
+				"Berglinsen (braun) kann man roh im Unverpackt-Laden kaufen und lange halten. ",
 				"Berglinsen können regional und in Bioqualität gekauft werden. "
 			],
 			"preparationSteps": [],
 			"finish": true,
-			"preCookerSimpel": true
+			"onlySoak": true
 		},
 		{
 			"name": "Bohnen",
@@ -121,7 +102,7 @@
 				"Kidney-Bohnen, Borlotti-Bohnen, Mungbohnen, Edamame etc kann man roh im Unverpackt-Laden kaufen und lange halten. ",
 				"Rohe Bohnen muss man vor dem essen waschen, einweichen und kochen. ",
 				"Bohnen gibt es in Dosen/Gläsern verzehrfertig. ",
-				"Bohnen kommen fast immer aus China :("
+				"Bei den Bohnen sollte man auf die Herkunft achten. "
 			],
 			"preparationSteps": [],
 			"roastSecond": true,
@@ -130,7 +111,8 @@
 		{
 			"name": "Tofu",
 			"handlingTips": [
-				"Tofu wird aus Soja gemacht. Kann daher regional und in Bioqualität gekauft werden. "
+				"Tofu wird aus Soja gemacht. Kann daher regional und in Bioqualität gekauft werden. ",
+				"Tofu kann man marinieren oder Variationen wie Räucher-, Nuss- und Paprika-Tofu kaufen. "
 			],
 			"preparationSteps": [],
 			"roastSecond": true,

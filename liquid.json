@@ -9,7 +9,7 @@
             "sauce": true
         },
         {
-            "name": "Weisswein(-Essig)",
+            "name": "Weisswein-Essig",
             "handlingTips": [],
             "preparationSteps": [
 
@@ -17,7 +17,23 @@
             "sauce": true
 		},
 		{
-            "name": "Rotwein(-Essig)/Balsamico",
+            "name": "Weisswein",
+            "handlingTips": [],
+            "preparationSteps": [
+
+            ],
+            "sauce": true
+		},
+		{
+            "name": "Balsamico",
+            "handlingTips": [],
+            "preparationSteps": [
+
+            ],
+            "sauce": true
+		},
+		{
+            "name": "Rotwein",
             "handlingTips": [],
             "preparationSteps": [
 
@@ -38,7 +54,7 @@
 			"preparationSteps": [
 
 			],
-			"finish": true
+			"sauce": true
 		},
 		{
 			"name": "Mandelmus",
@@ -46,7 +62,7 @@
 			"preparationSteps": [
 
 			],
-			"finish": true
+			"sauce": true
 		},
 		{
 			"name": "Erdnussmus",
@@ -54,18 +70,10 @@
 			"preparationSteps": [
 
 			],
-			"finish": true
-		},
-		{
-			"name": "Senf",
-			"handlingTips": [],
-			"preparationSteps": [
-
-			],
 			"sauce": true
 		},
 		{
-			"name": "Tomatensauce/-Püre/Pelati",
+			"name": "Tomatensauce",
 			"handlingTips": [],
 			"preparationSteps": [
 
@@ -87,13 +95,13 @@
 			"sauce": true
         },
         {
-			"name": "Pflanzliche Milch z.B. Hafer oder Soja",
+			"name": "Pflanzliche Cusine (Rahm) z.B. Hafer oder Soja",
 			"handlingTips": [],
 			"preparationSteps": [],
 			"sauce": true
 		},
 		{
-			"name": "Sojasauce/Tamari",
+			"name": "Sojasauce/Lupinensauce/Tamari",
 			"handlingTips": [],
 			"preparationSteps": [],
 			"sauce": true
