@@ -62,8 +62,21 @@ export default new Vuex.Store({
     setFoodList(state, names: string[]) {
       state.foodList = names;
     },
+    resetRecipe(state) {
+      state.grains = [];
+      state.legumes = [];
+      state.liquids = [];
+      state.spices = [];
+      state.veggies = [];
+      state.preparationSteps = [];
+      state.cookingSteps = [];
+      state.foodList = [];
+    },
   },
   actions: {
+    resetRecipe() {
+      this.commit('resetRecipe');
+    },
     generateEasyRecipe() {
       const {
         veggies,

@@ -29,7 +29,8 @@ import RecipeDisplay from './RecipeDisplay.vue';
   },
 })
 export default class RecipeCreator extends Vue {
-  public mounted() {
+  public async mounted() {
+    await this.$store.dispatch('resetRecipe');
     this.ingredients = this.$store.getters.ingredients;
   }
 

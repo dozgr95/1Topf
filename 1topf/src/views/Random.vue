@@ -24,6 +24,10 @@ import RecipeDisplay from './RecipeDisplay.vue';
   },
 })
 export default class RandomRecipe extends Vue {
+  public mounted() {
+    this.$store.dispatch('resetRecipe');
+  }
+
   public foodList(): string[] {
     return this.$store.getters.foodList;
   }
