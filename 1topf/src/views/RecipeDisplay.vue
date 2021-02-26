@@ -9,7 +9,7 @@
     <br>
     <process-recipe />
     <br>
-    <div class="storage-button">
+    <div v-if="foodList().length > 0" class="storage-button">
       <v-btn @click="showHandlingTips = !showHandlingTips">
         Einkaufstipps
       </v-btn>
