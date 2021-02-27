@@ -115,14 +115,15 @@
 			"preCookerSimpel": true
 		},
 		{
-			"name": "Gerste",
+			"name": "Gersten",
 			"handlingTips": [
 				"Gerste kann man im Unverpackt-Laden kaufen und lange halten. ",
 				"Gerste kann regional und in Bioqualität gekauft werden"
 			],
 			"preparationSteps": [],
-			"finish": true,
-			"onlySoak": true
+			"sauce": true,
+			"onlySoak": true,
+			"insideCookerWithWater": true
 		},
 		{
 			"name": "Maisgriess grob (Bramata)",

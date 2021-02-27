@@ -30,7 +30,7 @@
 			"preparationSteps": [
 
 			],
-			"roastFirst": true
+			"finish": true
 		},	
 		{
 			"name": "Sonnenblumenkerne",
