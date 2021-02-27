@@ -24,12 +24,12 @@
      Jedoch wenn du etwas nicht ausprobierst, weisst du auch nicht wie es schmeckt ;)
      1Topf ist wie freestyle-kochen aber nach Rezept
      <br><br>
-    1Topf steht für
-     - einen sportlichen/aktiven Lebensstil
-     - verwenden von möglichst unverarbeiteten lebensmitteln
-     - möglichst auf Verpackungen (Plastik) verzichten
-     - Konsum, der möglichst klimaverträglich ist
-     - etwas gutes für Körper und Geist
+    1Topf steht für:t <br>
+     - einen sportlichen/aktiven Lebensstil<br>
+     - verwenden von möglichst unverarbeiteten lebensmitteln<br>
+     - möglichst auf Verpackungen (Plastik) verzichten<br>
+     - Konsum, der möglichst klimaverträglich ist<br>
+     - etwas gutes für Körper und Geist<br>
     <br><br>
     <b>Hier einige Links an denen sich 1Topf orientiert:</b><br>
       - https://www.gemuese.ch/Saisonkalender<br>
@@ -38,7 +38,7 @@
       - https://www.bevegt.de/grain-green-bean/<br>
       - https://www.nikorittenau.com/<br>
       - https://www.youtube.com/watch?v=iF2sXCShho8<br>
-    </div>
+  </div>
 </template>
 
 <script lang="ts">
@@ -50,3 +50,9 @@ import { Component, Vue } from 'vue-property-decorator';
 })
 export default class Home extends Vue {}
 </script>
+
+<style lang="scss">
+.home {
+  margin: 50px;
+}
+</style>
